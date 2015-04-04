@@ -1,0 +1,32 @@
+.thin {
+	font-weight: 300;
+}
+
+header {
+	font-family: 'Lato', sans-serif;
+}
+
+header .wrap {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+}
+
+header img {
+	width: 60px;
+	margin-right: 0.5em;
+	margin-left: 2.5em;
+}
+
+#content-header {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+footer a {
+	color: grey;
+}
+
+footer a:visited {
+	color: grey;
+}

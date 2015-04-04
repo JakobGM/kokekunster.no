@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /~ingves/
+Allow: /~mika/
+Allow: /~stovneng/
+Disallow: /
+
