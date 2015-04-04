@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="platform.js"></script>
+    <script src="linktracker.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kokekunster</title>
+
+<!-- Specifies which css file to use -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css">
+
+<link rel="shortcut icon" href="img/favicon.ico" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61014858-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script>
+/**
+* Function that tracks a click on an outbound link in Google Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label.
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+     function () {
+     document.location = url;
+     }
+   });
+}
+</script>
+
+</head>
+
+<body>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5JDJTS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JDJTS');</script>
+<!-- End Google Tag Manager -->
+
+    <!-- The logo and the site name -->
+    <header>
+      <div class="wrap">
+    <img src="img/cooking15.svg" alt="logo" class="logo">
+    <h1>KOKE<span class="thin">kunster</span></h1>
+  </div>
+    </header>
+
+    <!-- Site navigation -->
+    <nav>
+      <div class="wrap">
+    <ul>
+      <li><a href="1semester.html"><b>1. Semester</b></a></li>
+      <li><a href="index.html">2. Semester</a></li>
+      <li class="arkiv"><img src="img/storfile98.svg" alt="arkiv"><a href="http://kokekunster.no/arkiv/1.Semester">Arkiv</a></li>
+    </ul>
+  </div>
+    </nav>
+
+    <!-- The main content. Consists of images, headlines and paragraphs -->
+    <div class="wrap content">
+    <article>
+    <a href="https://wiki.math.ntnu.no/tma4100/2014h/start"><img src="img/maclaurin.svg" alt="Maclaurin"></a>
+    <a href="https://wiki.math.ntnu.no/tma4100/2014h/start"><h2>Matte 1</h2></a>
+      <ul>
+        <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4100/2014h/fremdriftsplan">Pensum</a></li>
+        <li class="lf"><a href="http://folk.ntnu.no/grevsgar/Matte%201%20og%202/Calculus%20A%20Complete%20Course%206th%20Ed.%20Instructors%20Solution%20Manual.pdf"><b>LF</b> til Adams</a></li>
+        <li class="eks"><a href="https://wiki.math.ntnu.no/tma4100/2014h/eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
+      </ul>
+</article>
+<article>
+    <a href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="img/student45.svg" alt="Sovende student"></a>
+    <a href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><h2>Exphil</h2></a>
+      <ul>
+        <li class="pensum"><a href="http://www.ntnu.no/exphil/exph0004">Pensum</a></li>
+        <li class="ov"><a href="http://kokekunster.no/arkiv/1.Semester/EXPH0004%20-%20Exphil/%C3%98vingsoppgaver/">Øvingsoppgaver</a></li>
+        <li class="eks"><a href="https://www.ntnu.no/exphil/sensurveiledning2">Eksamenssett (med <b>LF</b>)</a></li>
+      </ul>
+</article>
+
+<article>
+    <a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/tfy4145.htm"><img src="img/physics.svg" alt="Impulsbevarelse"></a>
+    <a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/tfy4145.htm"><h2>Mekanisk fysikk</h2></a>
+      <ul>
+        <li class="pensum"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/framdrift.pdf">Pensum</a></li>
+        <li class="ov"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/tfy4145.htm#ovinger">Øvingsoppgaver</a></li>
+        <li class="lf"><a href="http://kokekunster.no/arkiv/1.Semester/TFY4145%20-%20Mekanisk%20Fysikk/LF%20%28H%C3%B8st%202014%29/"><b>LF</b> til øvingsoppgavene</a></li>
+        <li class="eks"><a href="http://home.phys.ntnu.no/instdef/arkiv/eksamen/tfy4145/index.html">Eksamenssett (med <b>LF</b>)</a></li>
+      </ul>
+</article>
+
+<article>
+    <a href="https://itgk.idi.ntnu.no/"><img src="img/binary10.svg" alt="Binærmaskin"></a>
+    <a href="https://itgk.idi.ntnu.no/"><h2>ITGK</h2></a>
+      <ul>
+        <li class="pensum"><a href="https://itgk.idi.ntnu.no/faginfo/pensum-itgk-2014.pdf">Pensum</a></li>
+        <li class="lf"><a href="http://kokekunster.no/arkiv/1.Semester/TDT4105%20-%20ITGK/"><b>LF</b> til øvingsoppgavene</a></li>
+        <li class="eks"><a href="https://www.ntnu.no/wiki/display/idiemner/Matlab+eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
+      </ul>
+</article>
+
+<article>
+    <a href="http://instabart.no/"><img src="img/three115.svg" alt="Tannhjul"></a>
+    <a href="http://instabart.no/"><h2>Ressurser</h2></a>
+        <ul>
+            <li class="itl"><a href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning">itslearning</a></li>
+            <li class="epost"><a href="https://webmail.stud.ntnu.no/">Studentepost</a></li>
+            <li class="software"><a href="https://software.ntnu.no/">Programvare</a></li>
+            <li class="farm"><a href="https://farm.ntnu.no/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx">Programfarm</a></li>
+            <li class="ibok"><a href="https://ibok.no/">Bruktbøker #1</a><a href="https://www.facebook.com/groups/274516045996844/?fref=ts"> #2</a></li>
+        </ul>
+</article>
+
+<article>
+    <img src="img/nabla.svg" alt="Nabla" class="desaturate">
+    <h2>Fritid</h2>
+        <ul>
+            <li class="nabla"><a href="http://nabla.no/">Nablas hjemmesider</a></li>
+            <li class="fb"><a href="https://www.facebook.com/groups/2248934869/?fref=ts">FYSMATs Facebook-gruppe</a></li>
+            <li class="middag"><a href="https://www.sit.no/en/middag/realfag">Realfagskantina</a></li>
+            <li class="bartebuss"><a href="http://bartebuss.no/">Bartebuss</a></li>
+            <li class="samfundet"><a href="http://whatnow.no/events/kategori/by/trondheim/">Konserter i Trondheim</a></li>
+        </ul>
+</article>
+
+  </div>
+
+<div class="footer">
+  <p>
+    Laget av <a href="mailto:kokekunster@gmail.com?Subject=Linkforespørsel%20til%20kokekunster.no" target="_top" class="navn">Jakob G. Martinussen  </a> (med god hjelp fra <a href="http://mvn.no" class="navn">Morten Noddeland</a>)
+  </p>
+<div class="footer">
+
+</body>
+</html>

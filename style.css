@@ -1,0 +1,276 @@
+/* Resets & basic page setup */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* Header (logo & site name) */
+header {
+	background: #333333;
+	color: white;
+}
+
+.wrap {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+header .wrap {
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+}
+
+header .logo {
+	width: 60px;
+	margin-right: 0.5em;
+	margin-bottom: 1em;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(invert=1);
+	-ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=1)';
+}
+
+.thin {
+	font-weight: 300;
+}
+
+header p {
+	font-weight: 300;
+}
+
+body header .wrap {
+	padding-top: .7em;
+	padding-bottom: .7em;
+}
+
+/* Navigation */
+nav {
+	background: #7a7a7a;
+	color: white;
+	font-weight: 300;
+}
+
+nav .wrap {
+	padding: 0.5em 0;
+}
+
+nav li {
+	display: inline;
+	padding-left: 1em;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Content */
+.content {
+	display: flex;
+	margin-top: 1em;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.wrap.content {
+	margin-top: 0;
+}
+
+.content article {
+	/*text-align: center;*/
+	padding: 1em;
+	width: 33.3333%;
+}
+
+.content article ul {
+	margin-top: 1em;
+	font-size: 1.1em;
+	line-height: 1.5;
+	color: #666;
+}
+
+.content article ul li {
+	font-size: 88%;
+	margin: -0.18em 0 0 0;
+}
+
+.content article img {
+	width: 5em;
+	height: auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.content a:visited {
+	color: black;
+}
+
+/* Stil på punktlistene */
+
+.fp {
+	list-style-image: url('img/event5.svg');
+}
+
+.ov {
+	list-style-image: url('img/blank32.svg');
+}
+
+.lf {
+	list-style-image: url('img/checked18.svg');
+}
+
+.eks {
+	list-style-image: url('img/file98.svg');
+}
+
+.itl {
+	list-style-image: url('img/itllogo.svg');
+}
+
+.epost {
+	list-style-image: url('img/origami6.svg');
+}
+
+.middag {
+	list-style-image: url('img/cutlery6.svg');
+}
+
+.software {
+	list-style-image: url('img/dvd9.svg');
+}
+
+.farm {
+	list-style-image: url('img/chicken2.svg');
+}
+
+.ibok {
+	list-style-image: url('img/books30.svg');
+}
+
+.nabla {
+	list-style-image: url('img/litennabla.svg');
+}
+
+.fb {
+	list-style-image: url('img/facebook42.svg');
+}
+
+.samfundet {
+	list-style-image: url('img/hand6');
+}
+
+.bartebuss {
+	list-style-image: url('img/vehicle12.svg');
+}
+
+.pensum {
+	list-style-image: url('img/checking1.svg');
+}
+
+.stoffkartotek {
+	list-style-image: url('img/flask.svg');
+}
+
+.bok {
+	list-style-image: url(img/open161.svg);
+}
+
+.arkiv img {
+	-webkit-filter: invert(100%); 
+	filter: invert(100%); 
+	filter: progid:DXImageTransform.Microsoft.BasicImage(invert=1);
+	-ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=1)';
+	padding-left: 0.3em;
+}
+
+footer {
+	display: -webkit-flex;
+	display: flex;
+	color: grey;
+	font-size: 75%;
+	text-align: center;
+}
+
+.footer p {
+	display: block;
+	color: grey;
+	font-size: 75%;
+	text-align: center;
+}
+
+.footer .navn {
+	color: black;
+}
+
+img.desaturate{
+	-webkit-filter: grayscale(1); 
+	-webkit-filter: grayscale(100%);
+	filter: gray; 
+	filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
+}
+
+/* Responsive design (break points) */
+@media (max-width: 900px) {
+	.content article {
+		width: 50%;
+	}
+}
+
+@media (max-width: 500px) {
+	header .logo {
+		width: 40px;	
+	}
+
+	header h1 {
+		font-size: 1.5em;
+	}
+
+	nav li {
+		display: block;
+		text-align: center;
+		padding: 0.5em;
+	}
+
+	.content article {
+		width: 100%;
+		padding: 0.3em;
+	}
+
+	header .logo {
+		width: 60px;
+		margin-right: 1em;
+		margin-left: 20%;
+		margin-bottom: auto;
+		text-align: center; 
+	}
+
+	.content {
+	    width:200px;
+    	margin:0 auto;
+    	text-align:left;
+	}
+
+	.content img {
+		margin-top: 1em;
+	}
+
+	.content article ul {
+		margin-top: 0.3em;
+		margin-top: 0.3em;
+	}
+}
