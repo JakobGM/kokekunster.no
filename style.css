@@ -71,6 +71,14 @@ nav a {
 	text-decoration: none;
 }
 
+.arkiv img {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(invert=1);
+	-ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=1)';
+	padding-left: 0.3em;
+}
+
 /* Content */
 .content {
 	display: flex;
@@ -117,6 +125,15 @@ a {
 
 .content a:visited {
 	color: black;
+}
+
+/* Brukes for nabla-ikonet under fritid */
+img.desaturate{
+	-webkit-filter: grayscale(1);
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+	filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
 }
 
 /* Stil på punktlistene */
@@ -189,13 +206,7 @@ a {
 	list-style-image: url(img/open161.svg);
 }
 
-.arkiv img {
-	-webkit-filter: invert(100%); 
-	filter: invert(100%); 
-	filter: progid:DXImageTransform.Microsoft.BasicImage(invert=1);
-	-ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=1)';
-	padding-left: 0.3em;
-}
+/* Footer */
 
 footer {
 	display: -webkit-flex;
@@ -216,14 +227,6 @@ footer {
 	color: black;
 }
 
-img.desaturate{
-	-webkit-filter: grayscale(1); 
-	-webkit-filter: grayscale(100%);
-	filter: gray; 
-	filter: grayscale(100%);
-	filter: url(desaturate.svg#greyscale);
-}
-
 /* Responsive design (break points) */
 @media (max-width: 900px) {
 	.content article {
@@ -233,7 +236,7 @@ img.desaturate{
 
 @media (max-width: 500px) {
 	header .logo {
-		width: 40px;	
+		width: 40px;
 	}
 
 	header h1 {
@@ -256,7 +259,7 @@ img.desaturate{
 		margin-right: 1em;
 		margin-left: 20%;
 		margin-bottom: auto;
-		text-align: center; 
+		text-align: center;
 	}
 
 	.content {
