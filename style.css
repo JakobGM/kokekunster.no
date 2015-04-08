@@ -127,6 +127,16 @@ a {
 	color: black;
 }
 
+
+/* Hover effect for diverse elementer på nettsiden */
+nav a:hover {
+	color: silver;
+}
+
+.content a:hover {
+	color: grey	;
+}
+
 /* Brukes for nabla-ikonet under fritid */
 img.desaturate{
 	-webkit-filter: grayscale(1);
