@@ -110,6 +110,13 @@ div.wrap.content {
 .content article ul li {
 	font-size: 88%;
 	margin: -0.18em 0 0 0;
+	text-indent: -25px;
+}
+
+/* Extender linkarealet mot venstre for å inkludere bulletpointsa */
+.content article ul li a {
+	display: block;
+	padding-left: 25px;
 }
 
 .content article img {
@@ -135,6 +142,16 @@ nav a:hover {
 
 .content a:hover {
 	color: grey	;
+}
+
+a img:hover {
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
+.content li a:hover {
+	color: black;
+	background: #eee;
 }
 
 /* Brukes for nabla-ikonet under fritid */
