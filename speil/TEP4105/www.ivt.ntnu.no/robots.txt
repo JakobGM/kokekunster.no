@@ -1,0 +1,39 @@
+# Created 25.june c.sætre x94521
+
+User-agent: *
+
+
+Allow: /cesos/
+Allow: /docs/
+Allow: /concept/
+Allow: /design/docs/
+Allow: /design/Designstrategier/
+
+Disallow: /_*/
+Disallow: /adm/
+Disallow: /affy/
+Disallow: /assets/
+Disallow: /bat/
+Disallow: /bck/
+Disallow: /comsol*/
+Disallow: /css/
+Disallow: /demo/
+Disallow: /dynavev/
+Disallow: /design/
+Disallow: /forms/
+Disallow: /glimt/
+Disallow: /ipd/
+Disallow: /itdrift/
+Disallow: /ivtsqladmin/
+Disallow: /numge2010/
+Disallow: /pics/
+Disallow: /styles/
+Disallow: /Templates/
+Disallow: /tempgzip/
+Disallow: /testblog/
+Disallow: /valg*/
+Disallow: /wpcore/
+
+
+
+
