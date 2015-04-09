@@ -140,18 +140,21 @@ nav a:hover {
 	color: silver;
 }
 
-.content a:hover {
-	color: grey	;
+.content article .kategori:hover {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	color: grey;
 }
 
-a img:hover {
-	opacity: 0.3;
-	filter: alpha(opacity=30);
-}
 
 .content li a:hover {
 	color: black;
 	background: #eee;
+}
+
+.arkiv:hover {
+	opacity: 0.4;
+	filter: alpha(opacity=40);
 }
 
 /* Brukes for nabla-ikonet under fritid */
@@ -290,9 +293,9 @@ footer {
 	}
 
 	.content {
-	    width:200px;
-    	margin:0 auto;
-    	text-align:left;
+		width:200px;
+		margin:0 auto;
+		text-align:left;
 	}
 
 	.content img {
