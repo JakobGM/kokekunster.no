@@ -1,6 +1,7 @@
 # www.kokekunster.no
 En linkportal for alt du trenger som en FYSMAT-student
-URL: www.kokekunster.mo
+
+URL: www.kokekunster.no
 
 Linkportalen i seg selv er skrevet med "ren" HTML og CSS.
 Siden har som hensikt å fungere for de fleste formfaktorer,
