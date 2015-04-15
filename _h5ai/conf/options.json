@@ -272,7 +272,7 @@ Options
     - size: width and height in pixel
     */
     "qrcode": {
-        "enabled": true,
+        "enabled": false,
         "size": 150
     },
 
