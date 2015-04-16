@@ -78,7 +78,7 @@
     <article>
         <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/science33.svg" alt="Kjemiflasker i stativ"><h2>Kjemi</h2></a>
       <ul>
-        <li class="fp"><a href="/forelesningsplan.pdf">Forelesningsplan</a></li>
+        <li class="fp"><a href="/ressurser/forelesningsplan.pdf">Forelesningsplan</a></li>
         <li class="fp"><a href="/ressurser/Program+labkurs+v2015.pdf">Program for labkurset</a></li>
         <li class="stoffkartotek"><a href="http://www.ntnu.no/stoffkartoteket/">Stoffkartotek</a></li>
         <li class="lf"><a href="/arkiv/2.Semester/TMT4110%20-%20Kjemi/"><b>LF</b> til øvingsoppgavene</a></li>
