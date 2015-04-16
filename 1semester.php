@@ -11,52 +11,19 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="/style.css">
 
-<!-- Favicon import -->
-<?php
-   $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/favicon.php";
-   include_once($path);
-?>
+  <!-- Favicon import -->
+  <?php
+     $path = $_SERVER['DOCUMENT_ROOT'];
+     $path .= "/favicon.php";
+     include_once($path);
+  ?>
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-61014858-1', 'auto');
-ga('send', 'pageview');
-
-</script>
-
-<script>
-/**
-* Function that tracks a click on an outbound link in Google Analytics.
-* This function takes a valid URL string as an argument, and uses that URL string
-* as the event label.
-*/
-var trackOutboundLink = function(url) {
-  ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
-  function () {
-    document.location = url;
-  }
-});
-}
-</script>
-
-</head>
-
-<body>
-
-  <!-- Google Tag Manager -->
-  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5JDJTS"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5JDJTS');</script>
-  <!-- End Google Tag Manager -->
+  <!-- Analytics, inkluderer </head> og <body> -->
+  <?php
+     $path = $_SERVER['DOCUMENT_ROOT'];
+     $path .= "/analytics.php";
+     include_once($path);
+  ?>
 
   <!-- The logo and the site name -->
   <?php
