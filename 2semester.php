@@ -71,23 +71,21 @@
   <!-- End Google Tag Manager -->
 
   <!-- The logo and the site name -->
-  <header>
-    <div class="wrap">
-      <img src="img/cooking15.svg" alt="logo" class="logo">
-      <h1>KOKE<span class="thin">kunster</span></h1>
-    </div>
-  </header>
+  <?php
+     $path = $_SERVER['DOCUMENT_ROOT'];
+     $path .= "/header.php";
+     include_once($path);
+  ?>
 
   <!-- Site navigation -->
-  <nav>
-    <div class="wrap">
-      <ul>
-        <li><a href="/1semester.html">1. Semester</a></li>
-        <li><a href="/index.html"><b>2. Semester</b></a></li>
-        <li class="arkiv"><a href="/arkiv/2.Semester/"><img src="/img/storfile98.svg" alt="arkiv">  Arkiv</a></li>
-      </ul>
-    </div>
-  </nav>
+  <?php
+     $path = $_SERVER['DOCUMENT_ROOT'];
+     $path .= "/navbar.php";
+     include_once($path);
+  ?>
+  <script>
+    document.getElementById('2semester').style.fontWeight = 'bold';
+  </script>
 
   <!-- The main content. Consists of images, headlines and paragraphs -->
   <div class="wrap content">
