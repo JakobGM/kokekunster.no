@@ -62,7 +62,7 @@
     </article>
 
     <article>
-      <a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/tfy4145.htm"><img src="/img/Newton_iteration.svg" alt="Newtons metode" width="80px" height="80px"><h2>NumMat</h2></a>
+      <a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/tfy4145.htm"><img src="/img/paper101.svg" alt="Kalkulator"><h2>NumMat</h2></a>
       <ul>
         <li class="pensum"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/framdrift.pdf">Pensum</a></li>
         <li class="ov"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/tfy4145.htm#ovinger">Øvingsoppgaver</a></li>
