@@ -48,7 +48,7 @@
       <a class="kategori" href="https://wiki.math.ntnu.no/tma4120/2014h/start"><img src="/img/magnifying-glass40.svg" alt="Graf"><h2>Matte 4K</h2></a>
       <ul>
         <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4120/2014h/tempoplan">Pensum</a></li>
-        <li class="lf"><a href="/arkiv/3.semester/TMA4120%20-%20Matte%204K"><b>LF</b> til Adams</a></li>
+        <li class="lf"><a href="/arkiv/3.Semester/TMA4120%20-%20Matte%204K/LF%20%28Høst%202014%29/"><b>LF</b> til øvingsoppgavene</a></li>
         <li class="eks"><a href="https://wiki.math.ntnu.no/tma4120/2014h/eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>
@@ -57,7 +57,7 @@
       <ul>
         <li class="pensum"><a href="http://www.ivt.ntnu.no/ept/fag/tep4105/pensum/index.html">Pensum</a></li>
         <li class="ov"><a href="http://www.ivt.ntnu.no/ept/fag/tep4105/oevinger/index.html">Øvingsoppgaver</a></li>
-        <li class="lf"><a href="/arkiv/3.%20Semester/TEP4105%20-%20Fluidmekanikk/"><b>LF</b> til øvingsoppgavene</a></li>
+        <li class="lf"><a href="/arkiv/3.Semester/TEP4105%20-%20Fluidmekanikk/"><b>LF</b> til øvingsoppgavene</a></li>
         <li class="eks"><a href="http://www.ivt.ntnu.no/ept/fag/tep4105/eksamener/index.html">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>
@@ -65,10 +65,10 @@
     <article>
       <a class="kategori" href="https://wiki.math.ntnu.no/tma4215/2014h/start"><img src="/img/paper101.svg" alt="Kalkulator"><h2>NumMat?</h2></a>
       <ul>
-        <li class="info"><a href="/ressurser/NumMatInfo.pdf">Informasjon om faget fra Støvneng</a></li>
-        <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4215/2014h/curriculum">Pensum?</a></li>
-        <li class="ov"><a href="https://wiki.math.ntnu.no/tma4215/2014h/project">Prosjektoppgave?</a></li>
-        <li class="eks"><a href="http://home.phys.ntnu.no/instdef/arkiv/eksamen/tfy4145/index.html">Lignende(?) eksamenssett (med <b>LF</b>)?</a></li>
+        <li class="info"><a href="/ressurser/NumMatInfo.pdf">Om emnet (Støvneng)</a></li>
+        <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4215/2014h/curriculum">Mulig pensum?</a></li>
+        <li class="ov"><a href="https://wiki.math.ntnu.no/tma4215/2014h/project">EKsempel på prosjektoppgave?</a></li>
+        <li class="eks"><a href="https://wiki.math.ntnu.no/tma4215/2014h/assignments#old_exams">Lignende eksamenssett (med <b>LF</b>)?</a></li>
       </ul>
     </article>
 
