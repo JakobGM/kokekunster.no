@@ -63,9 +63,9 @@
     </article>
 
     <article>
-      <a class="kategori" href="https://wiki.math.ntnu.no/tma4215/2014h/start"><img src="/img/info3.svg" alt="Kalkulator"><h2>NumMat?</h2></a>
+      <a class="kategori" href="https://wiki.math.ntnu.no/tma4215/2014h/start"><img src="/img/paper101.svg" alt="Kalkulator"><h2>NumMat?</h2></a>
       <ul>
-        <li class="viktiginfo"><a href="/ressurser/NumMatInfo.pdf">Informasjon om faget fra Støvneng</a></li>
+        <li class="info"><a href="/ressurser/NumMatInfo.pdf">Informasjon om faget fra Støvneng</a></li>
         <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4215/2014h/curriculum">Pensum?</a></li>
         <li class="ov"><a href="https://wiki.math.ntnu.no/tma4215/2014h/project">Prosjektoppgave?</a></li>
         <li class="eks"><a href="http://home.phys.ntnu.no/instdef/arkiv/eksamen/tfy4145/index.html">Lignende(?) eksamenssett (med <b>LF</b>)?</a></li>
