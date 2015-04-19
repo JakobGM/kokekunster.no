@@ -169,79 +169,79 @@ img.desaturate{
 /* Stil på punktlistene */
 
 .fp {
-	list-style-image: url('img/event5.svg');
+	list-style-image: url('/img/event5.svg');
 }
 
 .ov {
-	list-style-image: url('img/blank32.svg');
+	list-style-image: url('/img/blank32.svg');
 }
 
 .lf {
-	list-style-image: url('img/checked18.svg');
+	list-style-image: url('/img/checked18.svg');
 }
 
 .eks {
-	list-style-image: url('img/file98.svg');
+	list-style-image: url('/img/file98.svg');
 }
 
 .itl {
-	list-style-image: url('img/itllogo.svg');
+	list-style-image: url('/img/itllogo.svg');
 }
 
 .epost {
-	list-style-image: url('img/origami6.svg');
+	list-style-image: url('/img/origami6.svg');
 }
 
 .middag {
-	list-style-image: url('img/cutlery6.svg');
+	list-style-image: url('/img/cutlery6.svg');
 }
 
 .software {
-	list-style-image: url('img/dvd9.svg');
+	list-style-image: url('/img/dvd9.svg');
 }
 
 .farm {
-	list-style-image: url('img/chicken2.svg');
+	list-style-image: url('/img/chicken2.svg');
 }
 
 .ibok {
-	list-style-image: url('img/books30.svg');
+	list-style-image: url('/img/books30.svg');
 }
 
 .nabla {
-	list-style-image: url('img/litennabla.svg');
+	list-style-image: url('/img/litennabla.svg');
 }
 
 .fb {
-	list-style-image: url('img/facebook42.svg');
+	list-style-image: url('/img/facebook42.svg');
 }
 
 .samfundet {
-	list-style-image: url('img/hand6');
+	list-style-image: url('/img/hand6');
 }
 
 .bartebuss {
-	list-style-image: url('img/vehicle12.svg');
+	list-style-image: url('/img/vehicle12.svg');
 }
 
 .pensum {
-	list-style-image: url('img/checking1.svg');
+	list-style-image: url('/img/checking1.svg');
 }
 
 .stoffkartotek {
-	list-style-image: url('img/flask.svg');
+	list-style-image: url('/img/flask.svg');
 }
 
 .bok {
-	list-style-image: url(img/open161.svg);
+	list-style-image: url('/img/open161.svg');
 }
 
 .info {
-	list-style-image: url(img/litensign44.svg);
+	list-style-image: url('/img/litensign44.svg');
 }
 
-.info {
-	list-style-image: url(img/viktiginfo.svg);
+.viktiginfo {
+	list-style-image: url('/img/viktiginfo.svg');
 }
 
 /* Footer */
