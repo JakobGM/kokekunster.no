@@ -63,7 +63,7 @@
     </article>
 
     <article>
-      <a class="kategori" href="https://wiki.math.ntnu.no/tma4215/2014h/start"><img src="/img/paper101.svg" alt="Kalkulator"><h2><img src="/img/sign44.svg" alt="Konstruksjon">NumMat</h2></a>
+      <a class="kategori" href="https://wiki.math.ntnu.no/tma4215/2014h/start"><img src="/img/paper101.svg" alt="Kalkulator"><h2>NumMat?</h2></a>
       <ul>
         <li class="viktiginfo"><a href="/ressurser/NumMatInfo.pdf">Informasjon om faget fra Støvneng</a></li>
         <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4215/2014h/curriculum">Pensum?</a></li>
