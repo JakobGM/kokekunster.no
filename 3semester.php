@@ -45,38 +45,38 @@
   <!-- The main content. Consists of images, headlines and paragraphs -->
   <div class="wrap content">
     <article>
-      <a class="kategori" href="https://wiki.math.ntnu.no/tma4100/2014h/start"><img src="/img/magnifying-glass40.svg" alt="Graf"><h2>Matte 4K</h2></a>
+      <a class="kategori" href="https://wiki.math.ntnu.no/tma4120/2014h/start"><img src="/img/magnifying-glass40.svg" alt="Graf"><h2>Matte 4K</h2></a>
       <ul>
-        <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4100/2014h/fremdriftsplan">Pensum</a></li>
-        <li class="lf"><a href="http://folk.ntnu.no/grevsgar/Matte%201%20og%202/Calculus%20A%20Complete%20Course%206th%20Ed.%20Instructors%20Solution%20Manual.pdf"><b>LF</b> til Adams</a></li>
-        <li class="eks"><a href="https://wiki.math.ntnu.no/tma4100/2014h/eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
+        <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4120/2014h/tempoplan">Pensum</a></li>
+        <li class="lf"><a href="/arkiv/3.semester/TMA4120%20-%20Matte%204K"><b>LF</b> til Adams</a></li>
+        <li class="eks"><a href="https://wiki.math.ntnu.no/tma4120/2014h/eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>
     <article>
-      <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/poor.svg" alt="Sovende student"><h2>Fluidmekanikk</h2></a>
+      <a class="kategori" href="http://www.ivt.ntnu.no/ept/fag/tep4105/"><img src="/img/poor.svg" alt="Kran"><h2>Fluidmekanikk</h2></a>
       <ul>
-        <li class="pensum"><a href="http://www.ntnu.no/exphil/exph0004">Pensum</a></li>
-        <li class="ov"><a href="/arkiv/1.Semester/EXPH0004%20-%20Exphil/%C3%98vingsoppgaver/">Øvingsoppgaver</a></li>
-        <li class="eks"><a href="https://www.ntnu.no/exphil/sensurveiledning2">Eksamenssett (med <b>LF</b>)</a></li>
-      </ul>
-    </article>
-
-    <article>
-      <a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/tfy4145.htm"><img src="/img/paper101.svg" alt="Kalkulator"><h2>NumMat</h2></a>
-      <ul>
-        <li class="pensum"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/framdrift.pdf">Pensum</a></li>
-        <li class="ov"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2014/tfy4145.htm#ovinger">Øvingsoppgaver</a></li>
-        <li class="lf"><a href="/arkiv/1.Semester/TFY4145%20-%20Mekanisk%20Fysikk/LF%20%28H%C3%B8st%202014%29/"><b>LF</b> til øvingsoppgavene</a></li>
-        <li class="eks"><a href="http://home.phys.ntnu.no/instdef/arkiv/eksamen/tfy4145/index.html">Eksamenssett (med <b>LF</b>)</a></li>
+        <li class="pensum"><a href="http://www.ivt.ntnu.no/ept/fag/tep4105/pensum/index.html">Pensum</a></li>
+        <li class="ov"><a href="http://www.ivt.ntnu.no/ept/fag/tep4105/oevinger/index.html">Øvingsoppgaver</a></li>
+        <li class="lf"><a href="/arkiv/3.%20Semester/TEP4105%20-%20Fluidmekanikk/"><b>LF</b> til øvingsoppgavene</a></li>
+        <li class="eks"><a href="http://www.ivt.ntnu.no/ept/fag/tep4105/eksamener/index.html">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>
 
     <article>
-      <a class="kategori" href="https://itgk.idi.ntnu.no/"><img src="/img/businessmen19.svg" alt="Leder"><h2>Teknologiledelse</h2></a>
+      <a class="kategori" href="https://wiki.math.ntnu.no/tma4215/2014h/start"><img src="/img/sign44.svg" alt="Konstruksjon"><img src="/img/paper101.svg" alt="Kalkulator"><h2>NumMat</h2></a>
       <ul>
-        <li class="pensum"><a href="https://itgk.idi.ntnu.no/faginfo/pensum-itgk-2014.pdf">Pensum</a></li>
-        <li class="lf"><a href="/arkiv/1.Semester/TDT4105%20-%20ITGK/"><b>LF</b> til øvingsoppgavene</a></li>
-        <li class="eks"><a href="https://www.ntnu.no/wiki/display/idiemner/Matlab+eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
+        <li class="viktiginfo"><a href="/ressurser/NumMatInfo.pdf">Informasjon om faget fra Støvneng</a></li>
+        <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4215/2014h/curriculum">Pensum?</a></li>
+        <li class="ov"><a href="https://wiki.math.ntnu.no/tma4215/2014h/project">Prosjektoppgave?</a></li>
+        <li class="eks"><a href="http://home.phys.ntnu.no/instdef/arkiv/eksamen/tfy4145/index.html">Lignende(?) eksamenssett (med <b>LF</b>)?</a></li>
+      </ul>
+    </article>
+
+    <article>
+      <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/businessmen19.svg" alt="Leder"><h2>Teknologiledelse</h2></a>
+      <ul>
+        <li class="info"><a href="http://www.ntnu.no/studier/emner/TI%C3%984258/2014#tab=omEmnet">Om emnet</a></li>
+        <li class="eks"><a href="https://dvikan.no/gamle-ntnu-eksamener/TI%C3%984258-Teknologiledelse/">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>
 

@@ -236,6 +236,14 @@ img.desaturate{
 	list-style-image: url(img/open161.svg);
 }
 
+.info {
+	list-style-image: url(img/litensign44.svg);
+}
+
+.info {
+	list-style-image: url(img/viktiginfo.svg);
+}
+
 /* Footer */
 
 footer {
