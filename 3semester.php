@@ -67,7 +67,7 @@
       <ul>
         <li class="info"><a href="/ressurser/NumMatInfo.pdf">Om emnet (Støvneng)</a></li>
         <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4215/2014h/curriculum">Mulig pensum?</a></li>
-        <li class="ov"><a href="https://wiki.math.ntnu.no/tma4215/2014h/project">EKsempel på prosjektoppgave?</a></li>
+        <li class="ov"><a href="https://wiki.math.ntnu.no/tma4215/2014h/project">Eksempel på prosjektoppgave?</a></li>
         <li class="eks"><a href="https://wiki.math.ntnu.no/tma4215/2014h/assignments#old_exams">Lignende eksamenssett (med <b>LF</b>)?</a></li>
       </ul>
     </article>
