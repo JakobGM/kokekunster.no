@@ -18,6 +18,13 @@ header img {
 	margin-left: 2.5em;
 }
 
+header img:hover {
+        -webkit-filter: invert(50%);
+        filter: invert(50%);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(invert=0.5);
+        -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=0.5)';
+}
+
 #content-header {
 	margin-bottom: 0;
 	margin-top: 0;
