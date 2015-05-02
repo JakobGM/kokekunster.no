@@ -40,6 +40,8 @@
   ?>
   <script>
     document.getElementById('3semester').style.fontWeight = 'bold';
+    var arkivLink = document.getElementById('arkiv');
+      arkivLink.setAttribute('href', '/arkiv/3.Semester/')
   </script>
 
   <!-- The main content. Consists of images, headlines and paragraphs -->

@@ -40,6 +40,8 @@
   ?>
   <script>
     document.getElementById('2semester').style.fontWeight = 'bold';
+    var arkivLink = document.getElementById('arkiv');
+      arkivLink.setAttribute('href', '/arkiv/2.Semester/')
   </script>
 
   <!-- The main content. Consists of images, headlines and paragraphs -->
@@ -92,7 +94,7 @@
        $path .= "/ressurser.php";
        include_once($path);
     ?>
-    
+
   </div>
 
 </body>
