@@ -55,7 +55,7 @@ Options
         "sizes": [24, 32, 48, 64, 96],
         "smartBrowsing": true,
         "theme": "",
-        "unmanaged": ["index.html", "index.htm", "index.php"],
+        "unmanaged": ["index.html", "index.htm", "index.php", "1semester.php", "2semester.php", "3semester.php", "4semester.php", "5semester.php", "6semester.php", "7semester.php", "8semester.php", "9semester.php", "10semester.php"],
         "unmanagedInNewWindow": false
     },
 
@@ -103,7 +103,7 @@ Options
     */
     "download": {
         "enabled": true,
-        "type": "php-tar",
+        "type": "shell-zip",
         "packageName": null,
         "alwaysVisible": false
     },
