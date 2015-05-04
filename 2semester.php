@@ -5,7 +5,7 @@
   <script src="linktracker.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kokekunster</title>
+  <title>Kokekunster - Lenkeportalen for FYSMATere</title>
 
   <!-- Specifies which css file to use -->
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
