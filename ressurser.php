@@ -10,7 +10,7 @@
 </article>
 
 <article>
-  <a class="kategori" href="nabla.no"><img src="/img/nabla.svg" alt="Nabla" class="desaturate"><h2>Fritid</h2></a>
+  <a class="kategori" href="www.nabla.no"><img src="/img/nabla.svg" alt="Nabla" class="desaturate"><h2>Fritid</h2></a>
   <ul>
     <li class="fb"><a href="https://www.facebook.com/groups/2248934869/?fref=ts">FYSMATs Facebook-gruppe</a></li>
     <li class="middag"><a href="https://www.sit.no/en/middag/realfag">Realfagskantina</a></li>
