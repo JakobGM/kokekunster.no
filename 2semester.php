@@ -63,7 +63,7 @@
         <li class="ov"><a href="https://wiki.math.ntnu.no/tma4115/2015v/exercises">Øvingsoppgaver</a></li>
         <li class="bok"><a href="https://www.google.no/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#newwindow=1&amp;safe=off&amp;q=david+C.+Lay+linear+algebra+and+its+applications+.pdf&amp;spell=1">Boka</a></li>
         <li class="lf"><a href="/arkiv/2.Semester/TMA4115%20-%20Matte%203/Løsningsforslag%20til%20Lay/"><b>LF</b> til Lay</a></li>
-        <li class="eks"><a href="https://wiki.math.ntnu.no/tma4110/2012h/examproblems">Eksamenssett (med <b>LF</b>)</a></li>
+        <li class="eks"><a href="https://wiki.math.ntnu.no/tma4115/2015v/examproblems">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>
 
