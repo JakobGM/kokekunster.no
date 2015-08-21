@@ -19,7 +19,7 @@ header {
 	max-width: 1600px;
 	margin: 0 auto;
 	padding: 1em;
-	padding-left: 7%;
+	padding-left: 9%;
 }
 
 header .wrap {
@@ -144,7 +144,9 @@ p.underkonstruksjon {
 
 /* Styling for semestervalg */
 div.wrap.content.semester {
-	padding-left: 2em;
+	padding-left: 14%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 .content article .semester {

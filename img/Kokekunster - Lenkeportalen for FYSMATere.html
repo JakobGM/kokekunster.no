@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://localhost:4000/index.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script async="" src="./Kokekunster - Lenkeportalen for FYSMATere_files/gtm.js"></script><script async="" src="./Kokekunster - Lenkeportalen for FYSMATere_files/analytics.js"></script><script src="./Kokekunster - Lenkeportalen for FYSMATere_files/platform.js"></script>
+<script src="./Kokekunster - Lenkeportalen for FYSMATere_files/linktracker.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kokekunster - Lenkeportalen for FYSMATere</title>
+
+<!-- Specifies which css file to use -->
+<link href="./Kokekunster - Lenkeportalen for FYSMATere_files/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://localhost:4000/style.css">
+
+  <!-- Favicon import -->
+  <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/img/apple-touch-icon-57x57.png?v=2">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/img/apple-touch-icon-60x60.png?v=2">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/img/apple-touch-icon-72x72.png?v=2">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/img/apple-touch-icon-76x76.png?v=2">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/img/apple-touch-icon-114x114.png?v=2">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/img/apple-touch-icon-120x120.png?v=2">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/img/apple-touch-icon-144x144.png?v=2">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/img/apple-touch-icon-152x152.png?v=2">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/img/apple-touch-icon-180x180.png?v=2">
+<link rel="icon" type="image/png" href="http://localhost:4000/img/favicon-32x32.png?v=2" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/img/favicon-194x194.png?v=2" sizes="194x194">
+<link rel="icon" type="image/png" href="http://localhost:4000/img/favicon-96x96.png?v=2" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/img/android-chrome-192x192.png?v=2" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/img/favicon-16x16.png?v=2" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/img/manifest.json">
+<link rel="shortcut icon" href="http://localhost:4000/img/favicon.ico?v=2">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-TileImage" content="/img/mstile-144x144.png">
+<meta name="msapplication-config" content="/img/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+  <!-- Analytics, inkluderer </head> og <body> -->
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-61014858-1', 'auto');
+ga('send', 'pageview');
+
+</script><style type="text/css"></style>
+
+<script>
+/**
+* Function that tracks a click on an outbound link in Google Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label.
+*/
+var trackOutboundLink = function(url) {
+  ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+  function () {
+    document.location = url;
+  }
+});
+}
+</script>
+
+</head>
+
+<body>
+
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-5JDJTS"
+  height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JDJTS');</script>
+<!-- End Google Tag Manager -->
+
+  <!-- The logo and the site name -->
+  <header>
+  <div class="wrap">
+    <img src="./Kokekunster - Lenkeportalen for FYSMATere_files/cooking15.svg" alt="logo" class="logo">
+    <h1>KOKE<span class="thin">kunster</span></h1>
+  </div>
+</header>
+
+
+<script>
+/**
+Sjekker om cookie eksisterer, redirecter hvis ja
+*/
+function getCookie(name) {
+  var value = "; " + document.cookie;
+  var parts = value.split("; " + name + "=");
+
+  if (parts.length == 2)
+    return parts.pop().split(";").shift();
+}
+
+function cookieRedirect() {
+    var semester = getCookie("semester");
+    if(semester !== undefined) {
+      window.location.href = '/' + semester + 'semester.php';
+    }
+}
+
+cookieRedirect();
+</script>
+
+<script>
+/**
+Mottar et kall når brukeren har valgt et semester. Lagres i cookie og redirectes deretter
+**/
+function semestervalg(valg) {
+  document.cookie="semester=" + valg;
+  window.location.href = '/' + valg + 'semester.php';
+}
+
+
+</script>
+
+
+<!-- The main content. Consists of images, headlines and paragraphs -->
+
+<h1 class="semester"> Hvilket semester går du? Neste gang kommer du direkte til riktig semester! </h1>
+
+<div class="wrap content semester">
+  <article>
+    <a class="kategori semester" onclick="semestervalg(1)" href="http://localhost:4000/index.php#"><img src="./Kokekunster - Lenkeportalen for FYSMATere_files/Rank1.svg" alt="Brigadier general"><h2>1. Semester</h2></a>
+  </article>
+
+  <article>
+    <a class="kategori semester" onclick="semestervalg(2)" href="http://localhost:4000/index.php#"><img src="./Kokekunster - Lenkeportalen for FYSMATere_files/Rank2.svg" alt="Major general"><h2>2. Semester</h2></a>
+  </article>
+
+  <article>
+    <a class="kategori semester" onclick="semestervalg(3)" href="http://localhost:4000/index.php#"><img src="./Kokekunster - Lenkeportalen for FYSMATere_files/Rank3.svg" alt="Lieutenant general"><h2>3. Semester</h2></a>
+  </article>
+
+  <article>
+    <a class="kategori semester" onclick="semestervalg(4)" href="http://localhost:4000/index.php#"><img src="./Kokekunster - Lenkeportalen for FYSMATere_files/Rank4.svg" alt="Staff Sergeant"><h2>4. Semester</h2></a>
+  </article>
+
+  <article>
+    <a class="kategori semester" onclick="semestervalg(5)" href="http://localhost:4000/index.php#"><img src="./Kokekunster - Lenkeportalen for FYSMATere_files/Rank5.svg" alt="Master Sergeant"><h2>5. Semester</h2></a>
+  </article>
+
+  <article>
+    <a class="kategori semester" onclick="semestervalg(6)" href="http://localhost:4000/index.php#"><img src="./Kokekunster - Lenkeportalen for FYSMATere_files/Rank6.svg" alt="First Sergeant"><h2>6. Semester</h2></a>
+  </article>
+</div>
+
+
+
+</body></html>
