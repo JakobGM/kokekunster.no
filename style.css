@@ -279,17 +279,21 @@ img.desaturate{
 /* Footer */
 
 footer {
-	display: -webkit-flex;
-	display: flex;
 	color: grey;
 	font-size: 75%;
 	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .footer p {
 	color: grey;
 	font-size: 66%;
 	text-align: center;
+	position: fixed;
+	bottom: 0;
 }
 
 .footer .navn {
