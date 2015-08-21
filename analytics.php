@@ -24,6 +24,63 @@ var trackOutboundLink = function(url) {
 }
 </script>
 
+<script>
+/**
+Sjekker om cookie eksisterer, redirecter hvis, eller setter ønsked redirect hvis ikke
+*/
+
+function getCookie(name) {
+    var dc = document.cookie;
+    var prefix = name + "=";
+    var begin = dc.indexOf("; " + prefix);
+    if (begin == -1) {
+        begin = dc.indexOf(prefix);
+        if (begin != 0) return null;
+    }
+    else
+    {
+        begin += 2;
+        var end = document.cookie.indexOf(";", begin);
+        if (end == -1) {
+        end = dc.length;
+        }
+    }
+    return unescape(dc.substring(begin + prefix.length, end));
+}
+
+function doSomething() {
+    var semester = getCookie("semester");
+
+    if (semester == 1) {
+        // Redirect bruker til 1. semester osv
+        window.location.href = '/1semester.php';
+    }
+    else if (semester == 2) {
+        window.location.href = '/2semester.php';
+    }
+    else if (semester == 3) {
+        window.location.href = '/3semester.php';
+    }
+    else if (semester == 4) {
+        window.location.href = '/4semester.php';
+    }
+    else if (semester == 5) {
+        window.location.href = '/5semester.php';
+    }
+    else if (semester == 6) {
+        window.location.href = '/6semester.php';
+    }
+    else (semester == null) {
+        // Få bruker til å velge foretrukket semester;
+        do{
+          var semester = parseInt(window.prompt("Vennlighst velg ditt semester (1-6)", ""), 10);
+        }while(isNaN(selection) || selection > 6 || selection < 1);
+        document.cookie="semester=" + semester;
+    }
+}
+
+</script>
+
 </head>
 
 <body>
