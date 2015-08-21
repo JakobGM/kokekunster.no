@@ -37,22 +37,11 @@
 Sjekker om cookie eksisterer, redirecter hvis, eller setter ønsked redirect hvis ikke
 */
 function getCookie(name) {
-    var dc = document.cookie;
-    var prefix = name + "=";
-    var begin = dc.indexOf("; " + prefix);
-    if (begin == -1) {
-        begin = dc.indexOf(prefix);
-        if (begin != 0) return null;
-    }
-    else
-    {
-        begin += 2;
-        var end = document.cookie.indexOf(";", begin);
-        if (end == -1) {
-        end = dc.length;
-        }
-    }
-    return unescape(dc.substring(begin + prefix.length, end));
+  var value = "; " + document.cookie;
+  var parts = value.split("; " + name + "=");
+
+  if (parts.length == 2)
+    return parts.pop().split(";").shift();
 }
 
 function semestervalg() {
@@ -65,11 +54,6 @@ function semestervalg() {
       }while(isNaN(semester) || semester > 3 || semester < 1);
       document.cookie="semester=" + semester;
       window.location.href = '/' + semester + 'semester.php';
-    }
-    else if (semester < 1 || semester > 3) {
-      //Legger inn denne i tilfellet cookie-en ender opp med å bli korrupt
-      document.cookie="semester=" + null;
-      semestervalg();
     }
     else if (window.location.pathname.charAt(1) !== semester){
       window.location.href = '/' + semester + 'semester.php';
