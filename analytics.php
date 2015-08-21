@@ -48,7 +48,7 @@ function getCookie(name) {
     return unescape(dc.substring(begin + prefix.length, end));
 }
 
-function doSomething() {
+function semestervalg() {
     var semester = getCookie("semester");
 
     if (semester == 1) {
@@ -70,14 +70,19 @@ function doSomething() {
     else if (semester == 6) {
         window.location.href = '/6semester.php';
     }
-    else (semester == null) {
+    else if (semester == null) {
         // Få bruker til å velge foretrukket semester;
         do{
           var semester = parseInt(window.prompt("Vennlighst velg ditt semester (1-6)", ""), 10);
         }while(isNaN(selection) || selection > 6 || selection < 1);
         document.cookie="semester=" + semester;
     }
+    else {
+      alert("Evaluering av semestervalg feilet!");
+    }
 }
+
+semestervalg();
 
 </script>
 
