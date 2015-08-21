@@ -51,7 +51,7 @@
       <ul>
         <li class="video"><a href="https://video.adm.ntnu.no/serier/520397cf6166f">Videoforelesninger</a></li>
         <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4100/2015h/fremdriftsplan">Pensum</a></li>
-        <li class="lf"><a href="http://folk.ntnu.no/grevsgar/Matte%201%20og%202/Calculus%20A%20Complete%20Course%206th%20Ed.%20Instructors%20Solution%20Manual.pdf"><b>LF</b> til Adams</a></li>
+        <li class="lf"><a href="http://rjavadi.iut.ac.ir/sites/rjavadi.iut.ac.ir/files//files_course/robert_a._adams_christopher_essex_calculus_a_cbookfi.org_.pdf"><b>LF</b> til Adams</a></li>
         <li class="eks"><a href="https://wiki.math.ntnu.no/tma4100/2014h/eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>

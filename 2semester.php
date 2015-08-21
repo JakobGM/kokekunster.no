@@ -52,7 +52,7 @@
         <li class="fp"><a href="https://wiki.math.ntnu.no/tma4105/2015v/fremdriftsplan">Forelesningsplan</a></li>
         <li class="ov"><a href="https://www.math.ntnu.no/mapleta">Maple T.A.</a></li>
         <li class="lf"><a href="https://www.facebook.com/groups/1595115527375519/"><b>LF</b> til Maple T.A.</a></li>
-        <li class="lf"><a href="http://folk.ntnu.no/grevsgar/Matte%201%20og%202/Calculus%20A%20Complete%20Course%206th%20Ed.%20Instructors%20Solution%20Manual.pdf"><b>LF</b> til Adams</a></li>
+        <li class="lf"><a href="http://rjavadi.iut.ac.ir/sites/rjavadi.iut.ac.ir/files//files_course/robert_a._adams_christopher_essex_calculus_a_cbookfi.org_.pdf"><b>LF</b> til Adams</a></li>
         <li class="eks"><a href="https://wiki.math.ntnu.no/tma4105/2015v/eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>
