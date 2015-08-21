@@ -135,11 +135,6 @@ a {
 }
 
 /* Styling for semestervalg */
-div.wrap.content.semester {
-	margin-top: 0;
-	padding-left: 5em;
-}
-
 .content article .semester {
 	padding-left: 1.5em;
 }
@@ -288,10 +283,6 @@ footer {
 @media (max-width: 900px) {
 	.content article {
 		width: 50%;
-	}
-
-	div.wrap.content.semester {
-		padding-left: 0em;
 	}
 
 }
