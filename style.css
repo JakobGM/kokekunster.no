@@ -244,6 +244,10 @@ img.desaturate{
 	list-style-image: url('/img/viktiginfo3.svg');
 }
 
+.video {
+	list-style-image: url('/img/movie43.svg');
+}
+
 /* Footer */
 
 footer {
