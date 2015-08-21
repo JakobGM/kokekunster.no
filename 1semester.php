@@ -49,6 +49,7 @@
     <article>
       <a class="kategori" href="https://wiki.math.ntnu.no/tma4100/2015h/start"><img src="/img/maclaurin.svg" alt="Maclaurin"><h2>Matte 1</h2></a>
       <ul>
+        <li class="video"><a href="https://video.adm.ntnu.no/serier/520397cf6166f">Videoforelesninger</a></li>
         <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4100/2015h/fremdriftsplan">Pensum</a></li>
         <li class="lf"><a href="http://folk.ntnu.no/grevsgar/Matte%201%20og%202/Calculus%20A%20Complete%20Course%206th%20Ed.%20Instructors%20Solution%20Manual.pdf"><b>LF</b> til Adams</a></li>
         <li class="eks"><a href="https://wiki.math.ntnu.no/tma4100/2014h/eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
@@ -66,6 +67,7 @@
     <article>
       <a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/tfy4145.htm"><img src="/img/physics.svg" alt="Impulsbevarelse"><h2>Mekanisk fysikk</h2></a>
       <ul>
+        <li class="video"><a href="https://video.adm.ntnu.no/serier/503b51b184bd0">Videoforelesninger <i>(manglende pensum!)</i></a></li>
         <li class="pensum"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/framdrift.pdf">Pensum</a></li>
         <li class="ov"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/tfy4145.htm#ovinger">Øvingsoppgaver</a></li>
         <li class="lf"><a href="/arkiv/1.Semester/TFY4145%20-%20Mekanisk%20Fysikk/LF%20%28H%C3%B8st%202014%29/"><b>LF</b> til øvingsoppgavene</a></li>
@@ -76,7 +78,7 @@
     <article>
       <a class="kategori" href="https://www.ntnu.no/wiki/display/itgk/Forside"><img src="/img/binary10.svg" alt="Binærmaskin"><h2>ITGK</h2></a>
       <ul>
-        <li class="pensum"><a href="https://www.ntnu.no/wiki/display/tdt4105/Matlab+Foiler">Pensum</a></li>
+        <li class="pensum"><a href="https://www.ntnu.no/wiki/display/itgk/Pensum">Pensum</a></li>
         <li class="lf"><a href="/arkiv/1.Semester/TDT4105%20-%20ITGK/"><b>LF</b> til øvingsoppgavene</a></li>
         <li class="eks"><a href="https://www.ntnu.no/wiki/display/tdt4105/Matlab+eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
