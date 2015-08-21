@@ -67,7 +67,7 @@
     <article>
       <a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/tfy4145.htm"><img src="/img/physics.svg" alt="Impulsbevarelse"><h2>Mekanisk fysikk</h2></a>
       <ul>
-        <li class="video"><a href="https://video.adm.ntnu.no/serier/503b51b184bd0">Videoforelesninger <i>(manglende pensum!)</i></a></li>
+        <li class="video"><a href="https://video.adm.ntnu.no/serier/503b51b184bd0">Videoforelesninger</a></li>
         <li class="pensum"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/framdrift.pdf">Pensum</a></li>
         <li class="ov"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/tfy4145.htm#ovinger">Øvingsoppgaver</a></li>
         <li class="lf"><a href="/arkiv/1.Semester/TFY4145%20-%20Mekanisk%20Fysikk/LF%20%28H%C3%B8st%202014%29/"><b>LF</b> til øvingsoppgavene</a></li>
