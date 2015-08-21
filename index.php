@@ -34,21 +34,6 @@
 
 <script>
 /**
-* Function that tracks a click on an outbound link in Google Analytics.
-* This function takes a valid URL string as an argument, and uses that URL string
-* as the event label.
-*/
-var trackOutboundLink = function(url) {
-  ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
-  function () {
-    document.location = url;
-  }
-});
-}
-</script>
-
-<script>
-/**
 Sjekker om cookie eksisterer, redirecter hvis, eller setter ønsked redirect hvis ikke
 */
 function getCookie(name) {
@@ -76,10 +61,15 @@ function semestervalg() {
     if(semester == null) {
       // Få bruker til å velge foretrukket semester;
       do{
-        var semester = parseInt(window.prompt("Vennligst velg ditt semester (1-3)", ""), 10);
+        var semester = parseInt(window.prompt("Hvilket semester ønsker du å ha som din hjemmeside? (Tast inn 1 til 3)", ""), 10);
       }while(isNaN(semester) || semester > 3 || semester < 1);
       document.cookie="semester=" + semester;
       window.location.href = '/' + semester + 'semester.php';
+    }
+    else if (semester < 1 || semester > 3) {
+      //Legger inn denne i tilfellet cookie-en ender opp med å bli korrupt
+      document.cookie="semester=" + null;
+      semestervalg();
     }
     else if (window.location.pathname.charAt(1) !== semester){
       window.location.href = '/' + semester + 'semester.php';
