@@ -68,5 +68,12 @@
 
   </div>
 
+  <!-- Disclaimer -->
+  <?php
+     $path = $_SERVER['DOCUMENT_ROOT'];
+     $path .= "/disclaimer.php";
+     include_once($path);
+  ?>
+
 </body>
 </html>
