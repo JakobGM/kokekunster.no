@@ -70,7 +70,7 @@ function semestervalg(valg) {
 
 <!-- The main content. Consists of images, headlines and paragraphs -->
 
-<h1 class="semester"> Hvilket semester går du? Neste gang kommer du direkte til riktig semester! </h1>
+<h1 class="semester"> Velg ditt semester: <br></h1> <p class="semester"><i>(Kan senere endres ved å trykke på <img src="/img/stort_gear39.svg" alt="tannhjul"> i navigasjonsmenyen)</i></p>
 
 <div class="wrap content semester">
   <article>

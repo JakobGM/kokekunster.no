@@ -159,6 +159,10 @@ h1.semester {
 	font-size: 175%;
 }
 
+p.semester {
+	text-align: center;
+}
+
 /* Hover effect for diverse elementer på nettsiden */
 nav a:hover {
 	color: silver;
