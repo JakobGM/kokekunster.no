@@ -134,6 +134,21 @@ a {
 	color: black;
 }
 
+/* Styling for semestervalg */
+div.wrap.content.semester {
+	margin-top: 0;
+	padding-left: 5em;
+}
+
+.content article .semester {
+	padding-left: 1.5em;
+}
+
+h1.semester {
+	text-align: center;
+	padding-top: 1em;
+	font-size: 175%;
+}
 
 /* Hover effect for diverse elementer på nettsiden */
 nav a:hover {

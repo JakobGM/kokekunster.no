@@ -32,9 +32,10 @@
      include_once($path);
   ?>
 
+
 <script>
 /**
-Sjekker om cookie eksisterer, redirecter hvis, eller setter ønsked redirect hvis ikke
+Sjekker om cookie eksisterer, redirecter hvis ja
 */
 function getCookie(name) {
   var value = "; " + document.cookie;
@@ -44,25 +45,58 @@ function getCookie(name) {
     return parts.pop().split(";").shift();
 }
 
-function semestervalg() {
+function cookieRedirect() {
     var semester = getCookie("semester");
-
-    if(semester == null) {
-      // Få bruker til å velge foretrukket semester;
-      do{
-        var semester = parseInt(window.prompt("Hvilket semester ønsker du å ha som din hjemmeside? (Tast inn 1 til 3)", ""), 10);
-      }while(isNaN(semester) || semester > 3 || semester < 1);
-      document.cookie="semester=" + semester;
-      window.location.href = '/' + semester + 'semester.php';
-    }
-    else if (window.location.pathname.charAt(1) !== semester){
+    if(semester !== undefined) {
       window.location.href = '/' + semester + 'semester.php';
     }
 }
 
-semestervalg();
+cookieRedirect();
+</script>
+
+<script>
+/**
+Mottar et kall når brukeren har valgt et semester. Lagres i cookie og redirectes deretter
+**/
+function semestervalg(valg) {
+  document.cookie="semester=" + valg;
+  window.location.href = '/' + valg + 'semester.php';
+}
+
 
 </script>
+
+
+<!-- The main content. Consists of images, headlines and paragraphs -->
+
+<h1 class="semester"> Hvilket semester går du? Neste gang kommer du direkte til riktig semester! </h1>
+
+<div class="wrap content semester">
+  <article>
+    <a class="kategori semester" onclick="semestervalg(1)" href="#"><img src="/img/Rank1.svg" alt="Brigadier general"><h2>1. Semester</h2></a>
+  </article>
+
+  <article>
+    <a class="kategori semester" onclick="semestervalg(2)" href="#"><img src="/img/Rank2.svg" alt="Major general"><h2>2. Semester</h2></a>
+  </article>
+
+  <article>
+    <a class="kategori semester" onclick="semestervalg(3)" href="#"><img src="/img/Rank3.svg" alt="Lieutenant general"><h2>3. Semester</h2></a>
+  </article>
+
+  <article>
+    <a class="kategori semester" onclick="semestervalg(4)" href="#"><img src="/img/Rank4.svg" alt="Staff Sergeant"><h2>4. Semester</h2></a>
+  </article>
+
+  <article>
+    <a class="kategori semester" onclick="semestervalg(5)" href="#"><img src="/img/Rank5.svg" alt="Master Sergeant"><h2>4. Semester</h2></a>
+  </article>
+
+  <article>
+    <a class="kategori semester" onclick="semestervalg(6)" href="#"><img src="/img/Rank6.svg" alt="First Sergeant"><h2>4. Semester</h2></a>
+  </article>
+</div>
 
 </body>
 </html>

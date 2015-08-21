@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="100"
+   height="110"
+   id="svg7987"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="Corporal Prince George's County Sheriff's Office.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview9"
+     showgrid="false"
+     inkscape:zoom="2.1454545"
+     inkscape:cx="49.999999"
+     inkscape:cy="54.999999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs7989" />
+  <metadata
+     id="metadata7992">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-328.281,-478.221)"
+     id="layer1">
+    <path
+       d="m 378.2814,479.08054 c -9.1553,25.42539 -25.5562,47.38993 -46.71878,63.40625 l 0,44.875 c 17.57618,-9.46028 33.36529,-21.81631 46.71878,-36.4375 13.3534,14.62119 29.1425,26.97722 46.7187,36.4375 l 0,-44.875 c -21.1626,-16.01632 -37.5634,-37.98086 -46.7187,-63.40625 z"
+       id="path7633"
+       style="fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 378.2813,495.51804 c -9.802,19.78862 -24.02904,37.02277 -41.37495,50.375 l 0,12.8125 c 16.36319,-11.3349 30.44222,-25.74882 41.37495,-42.40625 10.9328,16.65743 25.0119,31.07135 41.3751,42.40625 l 0,-12.8125 c -17.346,-13.35223 -31.573,-30.58638 -41.3751,-50.375 z"
+       id="path7661"
+       style="fill:#C7C7C7;fill-opacity:1;stroke:#333333;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 378.2813,525.20554 c -11.28388,15.5519 -25.32029,28.98516 -41.37495,39.59375 l 0,11.59375 c 15.63772,-9.50463 29.59998,-21.48184 41.37495,-35.375 11.7751,13.89316 25.7373,25.87037 41.3751,35.375 l 0,-11.59375 C 403.6017,554.1907 389.5653,540.75744 378.2813,525.20554 z"
+       id="path7659"
+       style="fill:#C7C7C7;fill-opacity:1;stroke:#333333;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+</svg>
