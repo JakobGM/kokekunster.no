@@ -41,23 +41,13 @@
   <script>
     document.getElementById('3semester').style.fontWeight = 'bold';
     var arkivLink = document.getElementById('arkiv');
-      arkivLink.setAttribute('href', '/arkiv/4.Semester/')
+      arkivLink.setAttribute('href', '/arkiv/5.Semester/')
   </script>
 
   <!-- The main content. Consists of images, headlines and paragraphs -->
   <p class="underkonstruksjon"> Denne siden er enda ikke ferdigutviklet. Hvis det er noen som trenger en side for dette semesteret, så er det bare å ta kontakt <a href="mailto:kokekunster@gmail.com?Subject=Ønske%20om%20ekstra%20semester" target="_top">her</a>.</p>
 
   <div class="wrap content">
-
-    <article>
-      <a class="kategori" href="https://wiki.math.ntnu.no/tma4215/2014h/start"><img src="/img/paper101.svg" alt="Kalkulator"><h2>NumMat?</h2></a>
-      <ul>
-        <li class="info"><a href="/ressurser/NumMatInfo.pdf">Om emnet (Støvneng)</a></li>
-        <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4215/2014h/curriculum">Mulig pensum?</a></li>
-        <li class="ov"><a href="https://wiki.math.ntnu.no/tma4215/2014h/project">Eksempel på prosjektoppgave?</a></li>
-        <li class="eks"><a href="https://wiki.math.ntnu.no/tma4215/2014h/assignments#old_exams">Lignende eksamenssett (med <b>LF</b>)?</a></li>
-      </ul>
-    </article>
 
     <!-- Felles ressurser -->
     <?php
@@ -68,5 +58,5 @@
 
   </div>
 
-</body>
-</html>
+    </body>
+    </html>

@@ -90,11 +90,11 @@ function semestervalg(valg) {
   </article>
 
   <article>
-    <a class="kategori semester" onclick="semestervalg(5)" href="#"><img src="/img/Rank5.svg" alt="Master Sergeant"><h2>4. Semester</h2></a>
+    <a class="kategori semester" onclick="semestervalg(5)" href="#"><img src="/img/Rank5.svg" alt="Master Sergeant"><h2>5. Semester</h2></a>
   </article>
 
   <article>
-    <a class="kategori semester" onclick="semestervalg(6)" href="#"><img src="/img/Rank6.svg" alt="First Sergeant"><h2>4. Semester</h2></a>
+    <a class="kategori semester" onclick="semestervalg(6)" href="#"><img src="/img/Rank6.svg" alt="First Sergeant"><h2>6. Semester</h2></a>
   </article>
 </div>
 
