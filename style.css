@@ -288,14 +288,6 @@ footer {
 	right: 0;
 }
 
-.footer p {
-	color: grey;
-	font-size: 66%;
-	text-align: center;
-	position: fixed;
-	bottom: 0;
-}
-
 .footer .navn {
 	color: black;
 }
@@ -304,6 +296,10 @@ footer {
 @media (max-width: 900px) {
 	.content article {
 		width: 50%;
+	}
+
+	footer {
+		position:relative;
 	}
 
 }
