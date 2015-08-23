@@ -85,6 +85,7 @@ function semestervalg(valg) {
     <a class="kategori semester" onclick="semestervalg(3)" href="#"><img src="/img/Rank3.svg" alt="Lieutenant general"><h2>3.&nbsp;Semester</h2></a>
   </article>
 
+<!-- Her ligger koden klar for neste semester
   <article>
     <a class="kategori semester" onclick="semestervalg(4)" href="#"><img src="/img/Rank4.svg" alt="Staff Sergeant"><h2>4.&nbsp;Semester</h2></a>
   </article>
@@ -96,6 +97,7 @@ function semestervalg(valg) {
   <article>
     <a class="kategori semester" onclick="semestervalg(6)" href="#"><img src="/img/Rank6.svg" alt="First Sergeant"><h2>6.&nbsp;Semester</h2></a>
   </article>
+-->
 </div>
 
 </body>
