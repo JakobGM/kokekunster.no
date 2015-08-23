@@ -60,7 +60,7 @@ cookieRedirect();
 Mottar et kall når brukeren har valgt et semester. Lagres i cookie og redirectes deretter
 **/
 function semestervalg(valg) {
-  document.cookie="semester=" + valg;
+  document.cookie="semester=" + valg + "; expires=Thu, 31 Dec 2015 12:00:00 UTC";
   window.location.href = '/' + valg + 'semester.php';
 }
 
