@@ -50,7 +50,8 @@
       <a class="kategori" href="https://wiki.math.ntnu.no/tma4100/2015h/start"><img src="/img/maclaurin.svg" alt="Maclaurin"><h2>Matte 1</h2></a>
       <ul>
         <li class="video"><a href="https://video.adm.ntnu.no/serier/520397cf6166f">Videoforelesninger</a></li>
-        <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4100/2015h/fremdriftsplan">Pensum</a></li>
+        <li class="fp"><a href="https://wiki.math.ntnu.no/tma4100/2015h/fremdriftsplan">Framdriftsplan</a></li>
+        <li class="formelark"><a href="https://wiki.math.ntnu.no/_media/tma4100/2014h/formelark_eksamen_crop.pdf">Formelark</a></li>
         <li class="lf"><a href="http://rjavadi.iut.ac.ir/sites/rjavadi.iut.ac.ir/files//files_course/robert_a._adams_christopher_essex_calculus_a_cbookfi.org_.pdf"><b>LF</b> til Adams</a></li>
         <li class="eks"><a href="https://wiki.math.ntnu.no/tma4100/2014h/eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
@@ -68,7 +69,8 @@
       <a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/tfy4145.htm"><img src="/img/physics.svg" alt="Impulsbevarelse"><h2>Mekanisk fysikk</h2></a>
       <ul>
         <li class="video"><a href="https://video.adm.ntnu.no/serier/503b51b184bd0">Videoforelesninger</a></li>
-        <li class="pensum"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/framdrift.pdf">Pensum</a></li>
+        <li class="fp"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/framdrift.pdf">Framdriftsplan</a></li>
+        <li class="formelark"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/formler_mekfys.pdf">Formelark</a></li>
         <li class="ov"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/tfy4145.htm#ovinger">Øvingsoppgaver</a></li>
         <li class="lf"><a href="/arkiv/1.Semester/TFY4145%20-%20Mekanisk%20Fysikk/LF%20%28H%C3%B8st%202014%29/"><b>LF</b> til øvingsoppgavene</a></li>
         <li class="eks"><a href="http://home.phys.ntnu.no/instdef/arkiv/eksamen/tfy4145/index.html">Eksamenssett (med <b>LF</b>)</a></li>
