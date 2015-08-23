@@ -294,6 +294,18 @@ footer {
 	color: black;
 }
 
+/* ---------- Fikser feil i IE9, IE10 og IE11 hvor .svg bilder ikke skaleres riktig ---------- */
+.ie9 img[src*=".svg"] {
+  width: 100%;
+}
+/* 2 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src*=".svg"] {
+    width: 100%;
+  }
+}
+/* ---------- --------------------------------------------------------------------- ---------- */
+
 /* Responsive design (break points) */
 @media (max-width: 900px) {
 	.content article {
