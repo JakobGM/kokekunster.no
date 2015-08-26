@@ -79,6 +79,7 @@
         <li class="ov"><a href="http://web.phys.ntnu.no/~asudbo/TFY4165_2015/tfy4165.htm#ovinger">Øvingsoppgaver</a></li>
         <li class="lf"><a href="/arkiv/3.Semester/TFY4165%20-%20Termisk%20Fysikk/LF%20%28V%C3%A5r%202015%29/"><b>LF</b> til øvingsoppgavene</a></li>
         <li class="eks"><a href="http://home.phys.ntnu.no/instdef/arkiv/eksamen/fy1005/index.html">Eksamenssett (med <b>LF</b>)</a></li>
+        <li class="bok"><a href="/ressurser/TFY4165_Kapittel2.pdf"> Kapittel 1.5-2.12</a></li>
       </ul>
     </article>
 
