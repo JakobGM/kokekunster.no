@@ -48,7 +48,9 @@ function getCookie(name) {
 function cookieRedirect() {
     var semester = getCookie("semester");
     if(semester !== undefined) {
-      window.location.href = '/' + semester + 'semester.php';
+      if(semester <= 6 && semester >= 1) { /** Sjekker om semestervalget er en akseptert verdi **/
+        window.location.href = '/' + semester + 'semester.php';
+      }
     }
 }
 
