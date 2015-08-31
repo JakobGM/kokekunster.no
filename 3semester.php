@@ -60,7 +60,6 @@
     <article>
       <a class="kategori" href="http://www.ivt.ntnu.no/ept/fag/tep4105/index.html"><img src="/img/poor.svg" alt="Kran"><h2>Fluidmekanikk</h2></a>
       <ul>
-        <li class="video"><a href="http://www.ntnu.no/studier/emner/TFY4165#tab=multimedia">Videoforelesninger</a></li>
         <li class="fp"><a href="/ressurser/TEP4105_framdriftsplan.pdf">Framdriftsplan</a></li>
         <li class="pensum"><a href="http://www.ivt.ntnu.no/ept/fag/tep4105/pensum/index.html">Pensum</a></li>
         <li class="formelark"><a href="http://www.ivt.ntnu.no/ept/fag/tep4105/pensum/formel.pdf">Formelark</a></li>
