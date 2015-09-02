@@ -85,6 +85,7 @@
     <article>
       <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/businessmen19.svg" alt="Leder"><h2>Teknologiledelse</h2></a>
       <ul>
+        <li class="video"><a href="http://www.trondheimtech.no/category/podcast/">Tekled podcast</a></li>
         <li class="fp"><a href="/ressurser/TIØ4258_framdriftsplan.pdf">Framdriftsplan</a></li>
         <li class="info"><a href="/ressurser/TIØ4258_Generell_Info.pdf">Generell info</a></li>
         <li class="ov"><a href="/ressurser/TIØ4258_Øving1.pdf"> Øving nr. 1</a></li>
