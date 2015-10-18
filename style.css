@@ -32,10 +32,6 @@ header .logo {
 	width: 60px;
 	margin-right: 0.5em;
 	margin-bottom: 1em;
-	-webkit-filter: invert(100%);
-	filter: invert(100%);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(invert=1);
-	-ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=1)';
 }
 
 .thin {
@@ -75,10 +71,6 @@ nav a {
 }
 
 .arkiv img {
-	-webkit-filter: invert(100%);
-	filter: invert(100%);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(invert=1);
-	-ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=1)';
 	padding-left: 0.3em;
 }
 
