@@ -416,6 +416,19 @@ footer {
 	color: black;
 }
 
+/* Zoom to fit page on large resolutions */
+@media (min-width: 1580px) {
+	.wrap {
+		zoom: 1.07;
+	}
+}
+
+@media (min-width: 1900px) {
+	.wrap {
+		zoom: 1.15;
+	}
+}
+
 /* Responsive design (break points) */
 @media (max-width: 900px) {
 	.content article {
