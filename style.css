@@ -37,72 +37,8 @@ header .logo {
 	margin-bottom: 1em;
 }
 
-/* Hovereffekt på logo */
-@-webkit-keyframes movingflame {
-	0% { -webkit-transform: scale(1); }
-	25% { -webkit-transform: scale(0.85); }
-	50% { -webkit-transform: scale(1); }
-	75% { -webkit-transform: scale(1.15); }
-	100% { -webkit-transform: scale(1); }
-}
-
-/* Need to manage svg origin for scaling in firefox
-@keyframes movingflame {
-	0% { transform: scale(1); }
-	25% { transform: scale(0.85); }
-	50% { transform: scale(1); }
-	75% { transform: scale(1.15); }
-	100% { transform: scale(1); }
-}
-*/
-
-@-webkit-keyframes movingmist {
-	0% { -webkit-transform: translate(0) scale(1); }
-	25% { -webkit-transform: translate(-3px) scale(0.8); }
-	50% { -webkit-transform: translate(0px) scale(1); }
-	75% { -webkit-transform: translate(+3px) scale(1.2); }
-	100% { -webkit-transform: translate(0) scale(1); }
-}
-
-/* Need to manage svg origin for scaling in firefox
-@keyframes movingmist {
-	0% { transform: translate(0) scale(1); }
-	25% { transform: translate(-3px) scale(0.8); }
-	50% { transform: translate(0px) scale(1); }
-	75% { transform: translate(+3px) scale(1.2); }
-	100% { transform: translate(0) scale(1); }
-} */
-
-header a:hover #flame {
-	fill: #E25822; /* Making flames red on hover */
-	-webkit-animation-name: movingflame;
-	-webkit-animation-duration: 450ms;
-	-webkit-transform-origin:50% 50%;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
-	/* Need to manage svg origin for scaling in firefox
-	animation-name: movingflame;
-	animation-duration: 450ms;
-	transform-origin:50% 50%;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	*/
-}
-
-header a:hover #mist {
-	fill: #cce5ff;
-	-webkit-animation-name: movingmist;
-	-webkit-animation-duration: 1200ms;
-	-webkit-transform-origin:50% 50%;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-timing-function: linear;
-	/* Need to manage svg origin for scaling in firefox
-	animation-name: movingmist;
-	animation-duration: 1200ms;
-	transform-origin: 50% 50%;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-	*/
+header #mist {
+	fill: white;
 }
 
 header a:hover #pot {

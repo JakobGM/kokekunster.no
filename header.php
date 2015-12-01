@@ -1,6 +1,6 @@
 <header>
   <a href="http://kokekunster.no/">
-  <div class="wrap">
+  <div id="logo" class="wrap">
       <svg alt="logo" class="logo" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
       	 width="60px" height="60px" viewBox="0 0 375.028 375.028" style="enable-background:new 0 0 375.028 375.028;"
       	 xml:space="preserve">
@@ -21,7 +21,8 @@
       		c0.406,4.718,0.691,10.108,1.499,15.94c0.407,2.905,0.645,5.879,0.895,8.9c0.105,3.091,0.75,5.729,1.156,9.109
       		c0.807,6.482,1.737,11.92,2.556,17.707c0.784,5.728,1.499,11.131,2.132,15.731c1.15,9.329,1.423,16.126,1.423,16.126
       		S111.15,279.627,106.724,270.786z"/>
-      	<path id="mist" fill="white" d="M135.444,94.942c1.365,2.568,2.295,3.283,3.498,5.02l3.09,3.724c0.569,1.237,1.499,2.237,1.917,3.619
+        <g id="mist">
+      	<path id="left" d="M135.444,94.942c1.365,2.568,2.295,3.283,3.498,5.02l3.09,3.724c0.569,1.237,1.499,2.237,1.917,3.619
       		c1,2.58,2.104,5.316,2.452,8.325c0.987,5.914,0.912,12.101,0.662,17.492c-0.709,10.805-1.761,18.688-1.761,18.688
       		s5.775-5.588,10.364-16.655c1.145-2.748,2.26-5.838,2.986-9.289c0.737-3.428,1.464-7.186,1.295-11.247
       		c0-3.997-0.482-8.423-2.091-12.716c-0.634-2.202-1.976-4.224-2.998-6.338c-0.593-1.04-1.394-1.952-2.097-2.928l-1.127-1.452
@@ -30,7 +31,7 @@
       		c0.709-10.817,1.65-18.712,1.65-18.712s-5.71,5.647-10.3,16.679c-2.283,5.496-4.322,12.374-4.416,20.426
       		c0.082,3.985,0.157,8.377,1.795,12.688C132.895,90.208,134.132,92.624,135.444,94.942z M150.944,90.3
       		C150.956,90.312,150.741,90.062,150.944,90.3L150.944,90.3z"/>
-      	<path id="mist" fill="white" d="M169.446,56.629c1.365,2.574,2.295,3.288,3.498,5.025l3.09,3.724c0.575,1.237,1.499,2.237,1.918,3.613
+      	<path id="middle" d="M169.446,56.629c1.365,2.574,2.295,3.288,3.498,5.025l3.09,3.724c0.575,1.237,1.499,2.237,1.918,3.613
       		c0.998,2.585,2.108,5.321,2.451,8.331c0.987,5.914,0.918,12.101,0.668,17.486c-0.715,10.805-1.76,18.694-1.76,18.694
       		s5.768-5.594,10.357-16.655c1.145-2.748,2.26-5.844,2.98-9.295c0.743-3.428,1.464-7.186,1.301-11.241
       		c0-3.997-0.488-8.423-2.091-12.722c-0.628-2.196-1.976-4.218-2.998-6.338c-0.593-1.034-1.394-1.952-2.091-2.928l-1.109-1.429
@@ -39,7 +40,7 @@
       		C178.347,7.901,179.3,0,179.3,0s-5.717,5.653-10.307,16.679c-2.294,5.501-4.333,12.374-4.426,20.432
       		c0.093,3.985,0.156,8.377,1.807,12.682C166.914,51.883,168.151,54.3,169.446,56.629z M184.946,51.982
       		C184.97,51.994,184.76,51.755,184.946,51.982L184.946,51.982z"/>
-      	<path id="mist" fill="white" d="M211.448,91.375c1.371,2.568,2.301,3.282,3.509,5.02l3.091,3.724c0.569,1.237,1.498,2.237,1.917,3.613
+      	<path id="right" d="M211.448,91.375c1.371,2.568,2.301,3.282,3.509,5.02l3.091,3.724c0.569,1.237,1.498,2.237,1.917,3.613
       		c0.999,2.585,2.103,5.322,2.451,8.331c0.977,5.914,0.906,12.101,0.663,17.492c-0.709,10.799-1.755,18.688-1.755,18.688
       		s5.763-5.588,10.364-16.655c1.139-2.748,2.254-5.844,2.974-9.295c0.744-3.422,1.464-7.186,1.302-11.241
       		c0-3.997-0.488-8.423-2.092-12.716c-0.627-2.202-1.975-4.224-2.997-6.344c-0.604-1.034-1.395-1.952-2.092-2.928l-1.115-1.423
@@ -48,8 +49,52 @@
       		c0.72-10.817,1.649-18.718,1.649-18.718s-5.704,5.653-10.294,16.685c-2.301,5.496-4.334,12.368-4.427,20.426
       		c0.093,3.985,0.151,8.377,1.801,12.682C208.915,86.629,210.158,89.04,211.448,91.375z M226.971,86.722
       		C226.982,86.733,226.762,86.495,226.971,86.722L226.971,86.722z"/>
+        </g>
       </g>
       </svg>
     <h1>KOKE<span class="thin">kunster</span></h1>
   </div></a>
+
+<!--CDN links for the latest TweenLite, CSSPlugin, and EasePack-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+<script>
+var logo = document.getElementById("logo");
+var flame = document.getElementById("flame");
+var mist = document.getElementById("mist");
+var left = document.getElementById("left");
+var middle = document.getElementById("middle");
+var right = document.getElementById("right");
+var pot = document.getElementById("pot");
+
+var flameAnimation = TweenMax.to(flame, 0.2, {scaleX:1.15, scaleY:1.30, transformOrigin: "50% 100%", repeat:-1, yoyo:true, ease:Linear.easeNone, paused:true});
+var mistAnimation = TweenMax.to(mist, 0.6, {scaleX:0.85, scaleY:1.27, transformOrigin: "50% 100%", opacity:0.65, repeat:-1, yoyo:true, ease:Linear.easeNone, paused:true});
+var leftAnimation = TweenMax.to(left, 0.6, {x:+7, repeat:-1, yoyo:true, ease:Linear.easeNone, paused:true})
+var middleAnimation = TweenMax.to(middle, 0.6, {y:+5, repeat:-1, yoyo:true, ease:Linear.easeNone, paused:true})
+var rightAnimation = TweenMax.to(right, 0.6, {x:-7, repeat:-1, yoyo:true, ease:Linear.easeNone, paused:true})
+
+logo.onmouseover = function() {
+  TweenMax.to(flame, 0, {css:{fill:"#E25822"}});
+  TweenMax.to(mist, 0, {css:{fill:"#cce5ff"}});
+  flameAnimation.play();
+  mistAnimation.play();
+  leftAnimation.play();
+  middleAnimation.play();
+  rightAnimation.play();
+  potAnimation.play();
+}
+
+logo.onmouseout = function() {
+  TweenMax.to(flame, 0, {css:{fill:"white"}});
+  TweenMax.to(mist, 0, {css:{fill:"white"}});
+  var currentTime = flameAnimation.time();
+  flameAnimation.reverse(currentTime)
+  mistAnimation.reverse(currentTime)
+  leftAnimation.reverse(currentTime);
+  middleAnimation.reverse(currentTime);
+  rightAnimation.reverse(currentTime);
+  potAnimation.reverse(currentTime);
+}
+
+</script>
 </header>
