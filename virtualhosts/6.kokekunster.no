@@ -1,0 +1,7 @@
+<VirtualHost *:80>
+  ServerName 6.kokekunster.no
+  RedirectPermanent / http://www.kokekunster.no/6semester.php
+  
+  CheckSpelling On
+  CheckCaseOnly On
+</VirtualHost>
