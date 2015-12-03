@@ -18,11 +18,20 @@ header img {
 	margin-left: 2.5em;
 }
 
-header img:hover {
-        -webkit-filter: invert(50%);
-        filter: invert(50%);
-        filter: progid:DXImageTransform.Microsoft.BasicImage(invert=0.5);
-        -ms-filter: 'progid:DXImageTransform.Microsoft.BasicImage(invert=0.5)';
+header #mist {
+	fill: #676767;
+}
+
+header a:hover #pot {
+	fill: silver;
+}
+
+header a:hover #stove {
+	fill: silver;
+}
+
+header a:hover {
+	color: silver;
 }
 
 #content-header {
