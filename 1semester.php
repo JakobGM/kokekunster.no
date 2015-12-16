@@ -84,6 +84,7 @@
       <ul>
         <li class="pensum"><a href="https://www.ntnu.no/wiki/display/itgk/Pensum">Pensum</a></li>
         <li class="lf"><a href="/arkiv/1.Semester/TDT4105%20-%20ITGK/"><b>LF</b> til øvingsoppgavene</a></li>
+        <li class="quiz"><a href="https://overflow.no/ohsnap/subject/TDT4110/">Teori quiz</a></li>
         <li class="eks"><a href="https://www.ntnu.no/wiki/display/tdt4105/Matlab+eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>

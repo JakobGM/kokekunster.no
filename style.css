@@ -336,6 +336,10 @@ img.desaturate{
 	list-style-image: url('/img/sigma1.svg');
 }
 
+.quiz {
+	list-style-image: url('/img/quiz.svg');
+}
+
 /* Footer */
 
 footer {
