@@ -1,93 +1,87 @@
-# www.kokekunster.no
-En linkportal for alt du trenger som en FYSMAT-student
+# [Kokekunster.no](www.kokekunster.no)
+A collection of hotlinks for everything you need frequent access to as a student enrolled in the "Applied Physics and Mathematics" Master in Science Program at NTNU.
 
-URL: www.kokekunster.no
+URL: [www.kokekunster.no](www.kokekunster.no)
 
-Linkportalen er hovedsakelig skrevet fra scratch med HTML og CSS.
-PHP benyttes for import av repetativ HTML kode på kryss av semesterene
-og javascript for å manipulere semester-spesifikk CSS på disse elementene.
-Javascript benyttes også for å sette cookie for hvilket semester som er
-foretrukket av brukeren, og javascriptet redirecter til riktig semsester.
+The website is mainly written in HTML and CSS. PHP is used sparingly in order to import repetitive code across the site, and javascript is used to save the user's choice of semester in a cookie and subsequently redirect the user to the correct semester during their next visit.
 
+The site offers responsive design, intended for use with most browsers and and form factors. The file archive uses the [h5ai file indexer](http://larsjung.de/h5ai/) in order to serve locally hosted files in a more user friendly and appealing fashion.
 
-Siden har som hensikt å fungere for de fleste formfaktorer og nettlesere,
-med unntak av mange utgaver av Internet Explorer, hvor .svg skaleringen
-for øyeblikket er kun delvis fungerende.
+## Installation instructions
+The included virtualhost configuration is written for Apache 2, but the website could also be hosted with lighttpd, nginx and cherokee, since these are the webservers supported by the h5ai file indexer. But you will need to rewrite the virtualhost configuration for webservers other than Apache 2.
 
+ The following are instructions for setting up a webserver which can serve the website, including the h5ai file indexer. The given commands need to be entered in your terminal.
 
-Arkivet benytter seg av h5ai (http://larsjung.de/h5ai/), et filindekseringssystem
-som gjør arkivet litt mer snasent enn Apache sin standard filindeksering.
-
-
-Eventuelle planer for utvidelse:
-- .png fallback bilder for nettlesere som ikke støtter .svg
-- Ressursside med oversikt over alle bøkene som FYSMATere trenger, ShareLatex
-  ressurser og andre innsida-artikler som er relevante
-- Fikse custom error 404 .html fallback med link tilbake til semesterene og arkivet
-- Legge til link til git repo-et
-- Legge til 4. semester
-
-
-Her er oppsettet for Apache-konfigen
-```apache
-<VirtualHost *:80>
-        ServerAdmin webmaster@kokekunster.no
-        ServerName kokekunster.no
-        ServerAlias www.kokekunster.no
-        ServerAlias www.Kokekunster.no
-        ServerAlias Kokekunster.no
-
-        DocumentRoot /var/www/kokekunster.no/public_html
-        <Directory />
-                Options FollowSymLinks
-                AllowOverride None
-                DirectoryIndex index.php 1semester.php  index.html  /_h5ai/server/php/index.php
-
-                #All URLS rewritten as kokekunster.no --> www.kokekunster.no
-                RewriteEngine On
-                RewriteCond %{HTTP_HOST} !^www\.
-                RewriteCond %{HTTPS}s ^on(s)|
-                RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-                #Fix wrong capitalization
-                CheckSpelling On
-                CheckCaseOnly On
-
-                # Direct Apache to send all HTML output to the mod_pagespeed output handler.
-                AddOutputFilterByType MOD_PAGESPEED_OUTPUT_FILTER text/html
-
-        </Directory>
-        <Directory /var/www/kokekunster.no/public_html/>
-                Options Indexes FollowSymLinks MultiViews
-                AllowOverride None
-                Order allow,deny
-                allow from all
-                DirectoryIndex  index.php 1semester.php index.html  /_h5ai/server/php/index.php
-
-                # Direct Apache to send all HTML output to the mod_pagespeed output handler.
-                AddOutputFilterByType MOD_PAGESPEED_OUTPUT_FILTER text/html
-        </Directory>
-
-        <Directory />
-                Options FollowSymLinks
-                AllowOverride None
-                DirectoryIndex  index.php 1semester.php index.html  /_h5ai/server/php/index.php
-                </Directory>
-
-                ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
-                <Directory "/usr/lib/cgi-bin">
-                        AllowOverride None
-                        Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
-                        Order allow,deny
-                        Allow from all
-                </Directory>
-
-                ErrorLog ${APACHE_LOG_DIR}/error.log
-
-                # Possible values include: debug, info, notice, warn, error, crit,
-                # alert, emerg.
-                LogLevel warn
-
-                CustomLog ${APACHE_LOG_DIR}/access.log combined
-        </VirtualHost>
+Update your package lists from the repositories and upgrade existing packages.
+```Shell
+sudo apt-get update
+sudo apt-get upgrade
 ```
+
+Install the Apache 2 webserver and php5.
+```Shell
+sudo apt-get install apache2 apache2-doc apache2-utils
+sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+```
+
+Enable the apache modules used for rewriting URLs and making URLs case-insensetive.
+```Shell
+sudo a2enmod rewrite
+sudo a2enmod speling
+```
+
+Now we need to install the mod_pagespeed "output filter" module which optimizes the speed of the served web content. Ubuntu and Debian have packages you can download and install (or any Linux distribution that uses .DEB packages).
+
+If you’re on a 64-bit version (likely)...
+
+```Shell
+wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd64.deb
+```
+
+If you’re on a 32-bit version (less likely)...
+```Shell
+wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_i386.deb
+```
+
+Install this downloaded package.
+
+```Shell
+sudo dpkg -i mod-pagespeed-*.deb
+sudo apt-get -f install
+```
+
+And then remove the downloaded package.
+
+```Shell
+rm mod-pagespeed-*.deb
+```
+
+Install necessary packages in order for h5ai to be able to generate thumbs for different media content types.
+```Shell
+sudo apt-get install php5-gd libav-tools imagemagick tar zip
+```
+
+Now we need to create the folder which will contain the DocumentRoot for the website's content.
+
+```Shell
+mkdir -p /var/www/kokekunster.no
+```
+
+And then we can clone the website's repository to a folder named public_html within this folder.
+
+```Shell
+git clone https://github.com/JakobGM/kokekunster.no.git /var/www/kokekunster.no/public_html
+```
+
+Create a symbolic link between apache sites-available folder and the repository's virtualhost configuration.
+
+```Shell
+sudo ln -s /var/www/kokekunster.no/public_html/virtualhosts/kokekunster.no.conf /etc/apache2/sites-available/kokekunster.no.conf
+```
+
+Enable the website in Apache 2.
+```Shell
+sudo a2ensite kokekunster.no
+```
+
+The site should now be up and running!
