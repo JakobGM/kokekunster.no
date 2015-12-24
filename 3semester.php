@@ -47,7 +47,7 @@
   <!-- The main content. Consists of images, headlines and paragraphs -->
   <div class="wrap content">
     <article>
-      <a class="kategori" href="https://wiki.math.ntnu.no/tma4120/2015h/start"><img src="/img/magnifying-glass40.svg" alt="Graf"><h2>Matte 4K</h2></a>
+      <a class="kategori" href="https://wiki.math.ntnu.no/tma4120/2015h/start"><img src="/img/matte4k_logo.svg" alt="Graf"><h2>Matte 4K</h2></a>
       <ul>
         <li class="video"><a href="https://video.adm.ntnu.no/serier/4fe2d4d3dbe03">Videoforelesninger</a></li>
         <li class="fp"><a href="https://wiki.math.ntnu.no/tma4120/2015h/tempoplan">Framdriftsplan</a></li>
@@ -58,7 +58,7 @@
       </ul>
     </article>
     <article>
-      <a class="kategori" href="http://www.ivt.ntnu.no/ept/fag/tep4105/index.html"><img src="/img/poor.svg" alt="Kran"><h2>Fluidmekanikk</h2></a>
+      <a class="kategori" href="http://www.ivt.ntnu.no/ept/fag/tep4105/index.html"><img src="/img/fluidmek_logo.svg" alt="Kran"><h2>Fluidmekanikk</h2></a>
       <ul>
         <li class="fp"><a href="/ressurser/TEP4105_framdriftsplan.pdf">Framdriftsplan</a></li>
         <li class="pensum"><a href="http://www.ivt.ntnu.no/ept/fag/tep4105/pensum/index.html">Pensum</a></li>
@@ -70,7 +70,7 @@
     </article>
 
     <article>
-      <a class="kategori" href="http://web.phys.ntnu.no/~asudbo/TFY4165_2015/tfy4165.htm"><img src="/img/hot-drink22.svg" alt="Termos"><h2>Termisk fysikk</h2></a>
+      <a class="kategori" href="http://web.phys.ntnu.no/~asudbo/TFY4165_2015/tfy4165.htm"><img src="/img/termisk_logo.svg" alt="Termos"><h2>Termisk fysikk</h2></a>
       <ul>
         <li class="video"><a href="https://video.adm.ntnu.no/serier/52b19b083c9fb">Videoforelesninger</a></li>
         <li class="fp"><a href="http://web.phys.ntnu.no/~asudbo/TFY4165_2015/framdrift.pdf">Framdriftsplan</a></li>
@@ -83,7 +83,7 @@
     </article>
 
     <article>
-      <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/businessmen19.svg" alt="Leder"><h2>Teknologiledelse</h2></a>
+      <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/tekled_logo.svg" alt="Leder"><h2>Teknologiledelse</h2></a>
       <ul>
         <li class="video"><a href="http://www.trondheimtech.no/category/podcast/">Tekled podcast</a></li>
         <li class="fp"><a href="/ressurser/TIØ4258_framdriftsplan.pdf">Framdriftsplan</a></li>

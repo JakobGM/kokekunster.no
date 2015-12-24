@@ -47,7 +47,7 @@
   <!-- The main content. Consists of images, headlines and paragraphs -->
   <div class="wrap content">
     <article>
-      <a class="kategori" href="https://wiki.math.ntnu.no/tma4100/2015h/start"><img src="/img/maclaurin.svg" alt="Maclaurin"><h2>Matte 1</h2></a>
+      <a class="kategori" href="https://wiki.math.ntnu.no/tma4100/2015h/start"><img src="/img/matte1_logo.svg" alt="Maclaurin"><h2>Matte 1</h2></a>
       <ul>
         <li class="video"><a href="https://video.adm.ntnu.no/serier/520397cf6166f">Videoforelesninger</a></li>
         <li class="fp"><a href="https://wiki.math.ntnu.no/tma4100/2015h/fremdriftsplan">Framdriftsplan</a></li>
@@ -59,7 +59,7 @@
       </ul>
     </article>
     <article>
-      <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/student45.svg" alt="Sovende student"><h2>Exphil</h2></a>
+      <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/exphil_logo.svg" alt="Sovende student"><h2>Exphil</h2></a>
       <ul>
         <li class="pensum"><a href="http://www.ntnu.no/exphil/exph0004">Pensum</a></li>
         <li class="ov"><a href="/arkiv/1.Semester/EXPH0004%20-%20Exphil/%C3%98vingsoppgaver/">Øvingsoppgaver</a></li>
@@ -68,7 +68,7 @@
     </article>
 
     <article>
-      <a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/tfy4145.htm"><img src="/img/physics.svg" alt="Impulsbevarelse"><h2>Mekanisk fysikk</h2></a>
+      <a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/tfy4145.htm"><img src="/img/mekfys_logo.svg" alt="Impulsbevarelse"><h2>Mekanisk fysikk</h2></a>
       <ul>
         <li class="video"><a href="https://video.adm.ntnu.no/serier/503b51b184bd0">Videoforelesninger</a></li>
         <li class="fp"><a href="http://web.phys.ntnu.no/~stovneng/TFY4145_2015/framdrift.pdf">Framdriftsplan</a></li>
@@ -80,7 +80,7 @@
     </article>
 
     <article>
-      <a class="kategori" href="https://www.ntnu.no/wiki/display/itgk/Forside"><img src="/img/binary10.svg" alt="Binærmaskin"><h2>ITGK</h2></a>
+      <a class="kategori" href="https://www.ntnu.no/wiki/display/itgk/Forside"><img src="/img/itgk_logo.svg" alt="Binærmaskin"><h2>ITGK</h2></a>
       <ul>
         <li class="pensum"><a href="https://www.ntnu.no/wiki/display/itgk/Pensum">Pensum</a></li>
         <li class="lf"><a href="/arkiv/1.Semester/TDT4105%20-%20ITGK/"><b>LF</b> til øvingsoppgavene</a></li>

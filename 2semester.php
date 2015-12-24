@@ -47,7 +47,7 @@
   <!-- The main content. Consists of images, headlines and paragraphs -->
   <div class="wrap content">
     <article>
-        <a class="kategori" href="https://wiki.math.ntnu.no/tma4105/2015v/start"><img src="/img/sinusoid1.svg" alt="Grafer"><h2>Matte 2</h2></a>
+        <a class="kategori" href="https://wiki.math.ntnu.no/tma4105/2015v/start"><img src="/img/matte2_logo.svg" alt="Grafer"><h2>Matte 2</h2></a>
       <ul>
         <li class="fp"><a href="https://wiki.math.ntnu.no/tma4105/2015v/fremdriftsplan">Framdriftsplan</a></li>
         <li class="ov"><a href="https://www.math.ntnu.no/mapleta">Maple T.A.</a></li>
@@ -57,7 +57,7 @@
       </ul>
     </article>
     <article>
-        <a class="kategori" href="https://wiki.math.ntnu.no/tma4115/2015v" class="matrix"><img src="/img/movie2.svg" alt="Matrix"><h2>Matte 3</h2></a>
+        <a class="kategori" href="https://wiki.math.ntnu.no/tma4115/2015v" class="matrix"><img src="/img/matte3_logo.svg" alt="Matrix"><h2>Matte 3</h2></a>
       <ul>
         <li class="fp"><a href="https://wiki.math.ntnu.no/tma4115/2015v/plan">Framdriftsplan</a></li>
         <li class="ov"><a href="https://wiki.math.ntnu.no/tma4115/2015v/exercises">Øvingsoppgaver</a></li>
@@ -68,7 +68,7 @@
     </article>
 
     <article>
-        <a class="kategori" href="http://home.phys.ntnu.no/brukdef/undervisning/tfy4155/"><img src="/img/magnet7.svg" alt="Magnet"><h2>Elektromagnetisme</h2></a>
+        <a class="kategori" href="http://home.phys.ntnu.no/brukdef/undervisning/tfy4155/"><img src="/img/elmag_logo.svg" alt="Magnet"><h2>Elektromagnetisme</h2></a>
       <ul>
         <li class="fp"><a href="http://home.phys.ntnu.no/brukdef/undervisning/tfy4155/fplan.html">Framdriftsplan</a></li>
         <li class="ov"><a href="http://home.phys.ntnu.no/brukdef/undervisning/tfy4155/ovinger/">Øvingsoppgaver</a></li>
@@ -78,7 +78,7 @@
     </article>
 
     <article>
-        <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/science33.svg" alt="Kjemiflasker i stativ"><h2>Kjemi</h2></a>
+        <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/kjemi_logo.svg" alt="Kjemiflasker i stativ"><h2>Kjemi</h2></a>
       <ul>
         <li class="fp"><a href="/ressurser/forelesningsplan.pdf">Framdriftsplan</a></li>
         <li class="fp"><a href="/ressurser/Program+labkurs+v2015.pdf">Program for labkurset</a></li>

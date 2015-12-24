@@ -50,7 +50,7 @@
   <div class="wrap content">
 
     <article>
-      <a class="kategori" href="https://wiki.math.ntnu.no/tma4215/2014h/start"><img src="/img/paper101.svg" alt="Kalkulator"><h2>NumMat?</h2></a>
+      <a class="kategori" href="https://wiki.math.ntnu.no/tma4215/2014h/start"><img src="/img/nummat_logo.svg" alt="Kalkulator"><h2>NumMat?</h2></a>
       <ul>
         <li class="info"><a href="/ressurser/NumMatInfo.pdf">Om emnet (Støvneng)</a></li>
         <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4215/2014h/curriculum">Mulig pensum?</a></li>
