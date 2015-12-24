@@ -89,8 +89,8 @@
         <li class="fp"><a href="/ressurser/TIØ4258_framdriftsplan.pdf">Framdriftsplan</a></li>
         <li class="info"><a href="/ressurser/TIØ4258_Generell_Info.pdf">Generell info</a></li>
         <li class="quiz"><a href="http://tekled.meteor.com/">Multiple choice quiz</a></li>
-        <li class="ov"><a href="/ressurser/TIØ4258_Øving1.pdf"> Øving nr. 1</a></li>
-        <li class="eks"><a href="https://dvikan.no/gamle-ntnu-eksamener/TI%C3%984258-Teknologiledelse/">Eksamenssett (med <b>LF</b>)</a></li>
+        <li class="ov"><a href="/arkiv/3.Semester/TI%C3%984258%20-%20Teknologiledelse/"> Øvinger (med noen <b>LF</b>)</a></li>
+        <li class="eks"><a href="/arkiv/3.Semester/TIØ4258%20-%20Teknologiledelse/Tidligere%20eksamener/">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>
 
