@@ -3,6 +3,8 @@
   <ul>
     <li class="itl"><a href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning">itslearning</a></li>
     <li class="epost"><a href="https://outlook.office365.com/owa/?realm=ntnu.no#path=/mail">Studentepost</a></li>
+    <li class="wolframalpha"><a href="http://www.wolframalpha.com/">WolframAlpha</a></li>
+    <li class="symbolab"><a href="https://www.symbolab.com/">Symbolab</a></li>
     <li class="software"><a href="https://software.ntnu.no/">Programvare</a></li>
     <li class="ibok"><a href="https://ibok.no/">iBok.no</a></li>
   </ul>
@@ -14,6 +16,5 @@
     <li class="fb"><a href="https://www.facebook.com/groups/2248934869/?fref=ts">FYSMATs Facebook-gruppe</a></li>
     <li class="middag"><a href="https://www.sit.no/en/middag/realfag">Realfagskantina</a></li>
     <li class="bartebuss"><a href="http://bartebuss.no/">Bartebuss</a></li>
-    <li class="samfundet"><a href="http://whatnow.no/events/kategori/by/trondheim/">Konserter i Trondheim</a></li>
   </ul>
 </article>

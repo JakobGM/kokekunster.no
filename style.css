@@ -336,6 +336,14 @@ img.desaturate{
 	list-style-image: url('/img/quiz_link.svg');
 }
 
+.wolframalpha {
+	list-style-image: url('/img/wolframalpha_link.svg');
+}
+
+.symbolab {
+	list-style-image: url('/img/symbolab_link.svg');
+}
+
 /* Footer */
 
 footer {
