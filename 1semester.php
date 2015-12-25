@@ -83,7 +83,7 @@
       <a class="kategori" href="https://www.ntnu.no/wiki/display/itgk/Forside"><img src="/img/itgk_logo.svg" alt="Binærmaskin"><h2>ITGK</h2></a>
       <ul>
         <li class="pensum"><a href="https://www.ntnu.no/wiki/display/itgk/Pensum">Pensum</a></li>
-        <li class="lf"><a href="/arkiv/1.Semester/TDT4105%20-%20ITGK/"><b>LF</b> til øvingsoppgavene</a></li>
+        <li class="lf"><a href="http://kokekunster.no/arkiv/1.Semester/TDT4105%20-%20ITGK/%C3%98vinger%20%2B%20LF%20%28H%C3%B8st%202015%29/www.ntnu.no/wiki/pages/viewpage.action%3FpageId=83233999.html"><b>LF</b> til øvingsoppgavene</a></li>
         <li class="quiz"><a href="https://overflow.no/ohsnap/subject/TDT4110/">Teori quiz</a></li>
         <li class="eks"><a href="https://www.ntnu.no/wiki/display/tdt4105/Matlab+eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
