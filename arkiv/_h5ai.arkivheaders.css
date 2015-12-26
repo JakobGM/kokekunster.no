@@ -6,6 +6,31 @@ header {
 	font-family: 'Lato', sans-serif;
 }
 
+header a .wrap h1 {
+	color: black;
+	margin-top: 1.1em;
+}
+
+header a:hover .wrap h1 {
+	color: grey;
+}
+
+header a:hover .wrap #pot {
+	fill: grey
+}
+
+header a:hover .wrap #stove {
+	fill: grey
+}
+
+header a:hover .wrap #flame {
+	fill: #E25822;
+}
+
+header a:hover .wrap #mist {
+	fill: #3399FF;
+}
+
 header .wrap {
 	display: -webkit-flex;
 	display: flex;
@@ -14,24 +39,8 @@ header .wrap {
 
 header img {
 	width: 60px;
-	margin-right: 0.5em;
+	margin-right: 0.6em;
 	margin-left: 2.5em;
-}
-
-header #mist {
-	fill: #676767;
-}
-
-header a:hover #pot {
-	fill: silver;
-}
-
-header a:hover #stove {
-	fill: silver;
-}
-
-header a:hover {
-	color: silver;
 }
 
 #content-header {
