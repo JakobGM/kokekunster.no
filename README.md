@@ -14,14 +14,15 @@ The included virtualhost configuration is written for Apache 2, but the website 
 
 Update your package lists from the repositories and upgrade existing packages.
 ```Shell
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y autoremove
 ```
 
-Install the Apache 2 webserver and php5.
+####Enable Apache modules
+Install the Apache 2 webserver, php5, and exim4.
 ```Shell
-sudo apt-get install apache2 apache2-doc apache2-utils
-sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+sudo apt-get -y install apache2 apache2-doc apache2-utils
+sudo apt-get -y install php5 libapache2-mod-php5 php5-mcrypt
+sudo apt-get -y install exim4
 ```
 
 Enable the apache modules used for rewriting URLs and making URLs case-insensetive.
@@ -56,11 +57,25 @@ And then remove the downloaded package.
 rm mod-pagespeed-*.deb
 ```
 
+####Install h5ai prerequisites
 Install necessary packages in order for h5ai to be able to generate thumbs for different media content types.
 ```Shell
 sudo apt-get install php5-gd libav-tools imagemagick tar zip
 ```
 
+####Set up the Mail Transfer Agent (MTA)
+To configure Exim for your environment, execute:
+```Shell
+sudo dpkg-reconfigure exim4-config
+```
+
+Make the following choices in the configuration window which appears on your screen:
+1) **internet site; mail is sent and received directly using SMTP**.
+2) System mail name: the same as your Fully Qualified Domain Name (FQDN), e.g. `silicon.kokekunster.no`.
+3) SMTP listen on: `127.0.0.1 ; ::1`.
+4)  Other destinations for which mail is accepted: List your FQDN, local hostname, `localhost.localdomain`, and `localhost`, e.g. `silicon.kokekunster.no; silicon; localhost.localdomain; localhost`.
+
+####Clone the website repository
 Now we need to create the folder which will contain the DocumentRoot for the website's content.
 
 ```Shell
