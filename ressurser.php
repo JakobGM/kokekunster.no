@@ -7,6 +7,7 @@
     <li class="symbolab"><a href="https://www.symbolab.com/">Symbolab</a></li>
     <li class="software"><a href="https://software.ntnu.no/">Programvare</a></li>
     <li class="ibok"><a href="https://ibok.no/">iBok.no</a></li>
+    <li class="request"><a href="/request.php">Legg til / endre lenke</a></li>
   </ul>
 </article>
 

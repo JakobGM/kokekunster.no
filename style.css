@@ -344,6 +344,10 @@ img.desaturate{
 	list-style-image: url('/img/symbolab_link.svg');
 }
 
+.request {
+	list-style-image: url('/img/request_link.svg');
+}
+
 /* Footer */
 
 footer {
