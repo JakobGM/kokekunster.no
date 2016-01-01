@@ -39,23 +39,46 @@
      include_once($path);
   ?>
   <script>
-    document.getElementById('3semester').style.fontWeight = 'bold';
+    document.getElementById('4semester').style.fontWeight = 'bold';
     var arkivLink = document.getElementById('arkiv');
       arkivLink.setAttribute('href', '/arkiv/4.Semester/')
   </script>
 
   <!-- The main content. Consists of images, headlines and paragraphs -->
-  <p class="underkonstruksjon"> Denne siden er enda ikke ferdigutviklet. Hvis det er noen som trenger en side for dette semesteret, så er det bare å ta kontakt <a href="mailto:kokekunster@gmail.com?Subject=Ønske%20om%20ekstra%20semester" target="_top">her</a>.</p>
-
   <div class="wrap content">
 
     <article>
-      <a class="kategori" href="https://wiki.math.ntnu.no/tma4215/2014h/start"><img src="/img/nummat_logo.svg" alt="Kalkulator"><h2>NumMat?</h2></a>
+      <a class="kategori" href="https://wiki.math.ntnu.no/tma4320"><img src="/img/nummat2_logo.svg" alt="Kalkulator"><h2>NumMat</h2></a>
       <ul>
-        <li class="info"><a href="/ressurser/NumMatInfo.pdf">Om emnet (Støvneng)</a></li>
-        <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4215/2014h/curriculum">Mulig pensum?</a></li>
-        <li class="ov"><a href="https://wiki.math.ntnu.no/tma4215/2014h/project">Eksempel på prosjektoppgave?</a></li>
-        <li class="eks"><a href="https://wiki.math.ntnu.no/tma4215/2014h/assignments#old_exams">Lignende eksamenssett (med <b>LF</b>)?</a></li>
+        <li class="info"><a href="/ressurser/NumMatInfo.pdf">Støvnengs beskrivelse av emnet</a></li>
+        <li class="info"><a href="http://www.ntnu.no/studier/emner/TMA4320#tab=omEmnet">Kursbeskrivelse</a></li>
+      </ul>
+    </article>
+
+    <article>
+      <a class="kategori" href="http://www.nt.ntnu.no/users/jensoa/1006.html"><img src="/img/kvante_logo.svg" alt="Kalkulator"><h2>Kvante</h2></a>
+      <ul>
+        <li class="lf"><a href="/arkiv/4.Semester/TFY4215%20-%20Innf%C3%B8ring%20i%20kvantefysikk/"><b>LF</b> til øvingsoppgavene</a></li>
+      </ul>
+    </article>
+
+    <article>
+      <a class="kategori" href="http://www.idi.ntnu.no/emner/tdt4102/"><img src="/img/poop_logo.svg" alt="Kalkulator"><h2>P.O.O.P.</h2></a>
+      <ul>
+        <li class="lf"><a href="/arkiv/4.Semester/TDT4102%20-%20Prosedyre-%20og%20objektorientert%20programmering/"><b>LF</b> til øvingsoppgavene</a></li>
+      </ul>
+    </article>
+
+    <article>
+      <a class="kategori" href="https://wiki.math.ntnu.no/tma4245/2016v/parallell3"><img src="/img/statistikk_logo.svg" alt="Kalkulator"><h2>Statistikk</h2></a>
+      <ul>
+        <li class="video"><a href="https://wiki.math.ntnu.no/tma4245/2016v/videoforelesningv2016">Videoforelesninger</a></li>
+        <li class="fp"><a href="https://wiki.math.ntnu.no/tma4245/2016v/fremdriftsplan">Framdriftsplan</a></li>
+        <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4245/2016v/pensum">Pensum</a></li>
+        <li class="ov"><a href="https://ntnu.mapleta.com/ntnu/login/login.do">Maple T.A.</a></li>
+        <li class="ov"><a href="https://wiki.math.ntnu.no/tma4245/2016v/ovinger">Øvingsoppgaver</a></li>
+        <li class="lf"><a href="/arkiv/4.Semester/TMA4245%20-%20Statistikk/"><b>LF</b> til øvingsoppgavene</a></li>
+        <li class="eks"><a href="https://wiki.math.ntnu.no/tma4245/tema/eksamenssett">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>
 

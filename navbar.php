@@ -5,6 +5,7 @@
       <li><a onclick="semestervalg(1)" href="#"><span id="1semester">1. Semester</span></a></li>
       <li><a onclick="semestervalg(2)" href="#"><span id="2semester">2. Semester</span></a></li>
       <li><a onclick="semestervalg(3)" href="#"><span id="3semester">3. Semester</span></a></li>
+      <li><a onclick="semestervalg(4)" href="#"><span id="4semester">4. Semester</span></a></li>
       <li class="arkiv"><a id="arkiv" href="/arkiv/"><img src="/img/arkiv_nav.svg" alt="arkiv">  Arkiv</a></li>
     </ul>
   </div>
