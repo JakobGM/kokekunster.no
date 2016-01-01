@@ -24,7 +24,7 @@ function nyttsemester() {
 Mottar et kall når brukeren velger en semesterfane. Lagres i cookie og redirectes deretter.
 **/
 function semestervalg(valg) {
-  document.cookie="semester=" + valg + "; expires=Thu, 31 Dec 2015 12:00:00 UTC";
+  document.cookie="semester=" + valg + "; expires=Thu, 30 Jun 2015 12:00:00 UTC";
   window.location.href = '/' + valg + 'semester.php';
 }
 </script>
