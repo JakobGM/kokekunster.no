@@ -70,9 +70,42 @@
       *Påkrevde feldt
     </p>
 
-    <input class="pure-button" type="submit" value="Send inn forslag" name="submit">
+    <input class="pure-button" type="submit" value="Send inn lenkeforslag" name="submit">
   </form>
 </article>
+
+<article>
+  <img src="/img/fileform_logo.svg" alt="Lenke">
+  <h2>Fil</h2>
+  <form enctype="multipart/form-data" method="post" name="file-request" action="file-form-to-email.php">
+    <p>
+      <label for='title'>Tittel<span style="color: grey;">*</span>: </label><br>
+      <input type="text" name="title" required>
+    </p>
+
+    <p>
+      <label for='category'>Fag / kategori (semester): </label><br>
+      <input type="text" name="category">
+    </p>
+
+    <p>
+      <label for='file'>Fil<span style="color: grey;">*</span>: </label><br>
+      <input class="fileupload" type="file" name="file" required>
+    </p>
+
+    <p>
+      <label for='description'>Beskrivelse: </label><br>
+      <input class="description" type="text" name="description">
+    </p>
+
+    <p class="mandatory-notice" style="margin-top: -0.5em;">
+      *Påkrevde feldt
+    </p>
+
+    <input class="pure-button" type="submit" value="Send inn filforslag" name="submit" id="submit">
+  </form>
+</article>
+
 </div>
 
 <!-- Disclaimer -->
