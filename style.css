@@ -364,6 +364,20 @@ footer {
 	color: black;
 }
 
+/* Link request page */
+article form p {
+	padding-bottom: 0.6em;
+}
+
+.linkform article h2 {
+	padding-bottom: 0.2em;
+}
+
+.mandatory-notice {
+	color: grey;
+	font-size: smaller;
+}
+
 /* Zoom to fit page on large resolutions */
 @media (min-width: 1580px) {
 	.wrap {
