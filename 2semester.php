@@ -49,7 +49,9 @@
     <article>
         <a class="kategori" href="https://wiki.math.ntnu.no/tma4105/2016v/start"><img src="/img/matte2_logo.svg" alt="Grafer"><h2>Matte 2</h2></a>
       <ul>
+        <li class="video"><a href="http://video.adm.ntnu.no/serier/54943f6c917e0">Videoforelesninger</a></li>
         <li class="fp"><a href="https://wiki.math.ntnu.no/tma4105/2016v/fremdriftsplan">Framdriftsplan</a></li>
+        <li class="formelark"><a href="/ressurser/TMA4105_2015_Formelark.pdf">Formelark</a></li>
         <li class="ov"><a href="https://www.math.ntnu.no/mapleta">Maple T.A.</a></li>
         <li class="lf"><a href="https://www.facebook.com/groups/1595115527375519/"><b>LF</b> til Maple T.A.</a></li>
         <li class="lf"><a href="http://rjavadi.iut.ac.ir/sites/rjavadi.iut.ac.ir/files//files_course/robert_a._adams_christopher_essex_calculus_a_cbookfi.org_.pdf"><b>LF</b> til Adams</a></li>
@@ -59,6 +61,7 @@
     <article>
         <a class="kategori" href="https://wiki.math.ntnu.no/tma4115/2016v/start" class="matrix"><img src="/img/matte3_logo.svg" alt="Matrix"><h2>Matte 3</h2></a>
       <ul>
+        <li class="video"><a href="http://video.adm.ntnu.no/serier/4fe2d4d3dce25">Videoforelesninger</a></li>
         <li class="fp"><a href="https://wiki.math.ntnu.no/tma4115/2016v/plan">Framdriftsplan</a></li>
         <li class="ov"><a href="https://wiki.math.ntnu.no/tma4115/2016v/exer">Øvingsoppgaver</a></li>
         <li class="bok"><a href="https://www.google.no/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#newwindow=1&amp;safe=off&amp;q=david+C.+Lay+linear+algebra+and+its+applications+.pdf&amp;spell=1">Boka</a></li>
