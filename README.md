@@ -72,14 +72,23 @@ sudo dpkg-reconfigure exim4-config
 ```
 
 Make the following choices in the configuration window which appears on your screen:
+
 1) `internet site; mail is sent and received directly using SMTP`.
+
 2) System mail name: the same as your Fully Qualified Domain Name (FQDN), e.g. `silicon.kokekunster.no`.
+
 3) SMTP listen on: `127.0.0.1 ; ::1`.
+
 4)  Other destinations for which mail is accepted: List your FQDN, local hostname, `localhost.localdomain`, and `localhost`, e.g. `silicon.kokekunster.no; silicon; localhost.localdomain; localhost`.
+
 5) Domains to relay mail for: `Leave this field blank`.
-6) Machines to relay mail for: `Leave this field blank.
-7) Keep number of DNS-queries minimal (Dial-on-Demand)? `<No>`
+
+6) Machines to relay mail for: `Leave this field blank`.
+
+7) Keep number of DNS-queries minimal (Dial-on-Demand): `<No>`
+
 8) Delivery method for local mail: `Maildir format in home directory`
+
 9) Split configuration into small files? `<No>`
 
 ####Clone the website repository
