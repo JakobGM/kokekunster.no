@@ -424,6 +424,8 @@ article form p {
 		display: block;
 		text-align: center;
 		padding: 0.5em;
+		position: relative;
+		left: -4%;
 	}
 
 	.content article {
