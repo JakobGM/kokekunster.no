@@ -405,7 +405,11 @@ article form p {
 
 @media (max-width: 500px) {
 	.wrap {
-		padding-left: 6%; /* For riktig center allignment på telefon */
+		padding-left: 6%; /* For correct center allignment on mobile screens */
+	}
+
+	div.wrap.content.semester {
+		padding-left: 6%; /* For correct center allignment on mobile screens on the semester choice screen */
 	}
 
 	header .logo {
