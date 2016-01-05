@@ -2,6 +2,7 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
 
 <header>
+	<script src="/scripts/javascript.js"></script>
 	<a href="http://kokekunster.no/">
 	<div class="wrap">
 		<svg alt="logo" class="logo" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -55,7 +56,9 @@
 			</g>
 		</g>
 		</svg>
-		<h1>KOKE<span class="thin">kunster</span></h1>
+		<!-- Correct logo header text based on URL of browser -->
+		<h1 id="archive-header"></h1>
+		<script>document.getElementById("archive-header").innerHTML = logoHeaderText(isFysmat())</script>
 	</div>
 	</a>
 </header>

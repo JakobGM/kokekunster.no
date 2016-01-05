@@ -1,4 +1,5 @@
 <header>
+  <script src="/scripts/javascript.js"></script>
   <a href="http://kokekunster.no/">
   <div id="logo" class="wrap">
       <svg alt="logo" class="logo" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -52,7 +53,10 @@
         </g>
       </g>
       </svg>
-    <h1>KOKE<span class="thin">kunster</span></h1>
+    <!-- Correct logo header text based on URL of browser -->
+    <h1>
+    <script>document.write(logoHeaderText(isFysmat()))</script>
+    </h1>
   </div></a>
 
 <!--CDN links for the latest TweenLite, CSSPlugin, and EasePack-->

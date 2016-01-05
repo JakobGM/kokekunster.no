@@ -10,5 +10,3 @@
     </ul>
   </div>
 </nav>
-
-<script src="/scripts/javascript.js"></script>
