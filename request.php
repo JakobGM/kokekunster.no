@@ -2,7 +2,7 @@
 <html>
 <head>
 <script src="platform.js"></script>
-<script src="linktracker.js"></script>
+<script src="/scripts/linktracker.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kokekunster - Lenkeportalen for FYSMATere</title>
@@ -23,7 +23,7 @@
 <!-- Analytics, inkluderer </head> og <body> -->
 <?php
    $path = $_SERVER['DOCUMENT_ROOT'];
-   $path .= "/analytics.php";
+   $path .= "/scripts/analytics.php";
    include_once($path);
 ?>
 
@@ -45,7 +45,7 @@
 <article>
   <img src="/img/linkform_logo.svg" alt="Lenke">
   <h2>Lenke</h2>
-  <form method="post" name="content-request" action="link-form-to-email.php">
+  <form method="post" name="content-request" action="/scripts/link-form-to-email.php">
     <p>
       <label for='title'>Tittel<span style="color: grey;">*</span>: </label><br>
       <input type="text" name="title" required>
@@ -78,7 +78,7 @@
 <article>
   <img src="/img/fileform_logo.svg" alt="Lenke">
   <h2>Fil</h2>
-  <form enctype="multipart/form-data" method="post" name="file-request" action="file-form-to-email.php">
+  <form enctype="multipart/form-data" method="post" name="file-request" action="/scripts/file-form-to-email.php">
     <p>
       <label for='title'>Tittel<span style="color: grey;">*</span>: </label><br>
       <input type="text" name="title" required>

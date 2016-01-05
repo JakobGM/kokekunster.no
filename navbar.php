@@ -11,4 +11,4 @@
   </div>
 </nav>
 
-<script src="/redirect.js"></script>
+<script src="/scripts/javascript.js"></script>

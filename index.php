@@ -2,7 +2,7 @@
 <html>
 <head>
 <script src="platform.js"></script>
-<script src="linktracker.js"></script>
+<script src="/scripts/linktracker.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kokekunster - Lenkeportalen for FYSMATere</title>
@@ -21,7 +21,7 @@
   <!-- Analytics, inkluderer </head> og <body> -->
   <?php
      $path = $_SERVER['DOCUMENT_ROOT'];
-     $path .= "/analytics.php";
+     $path .= "/scripts/analytics.php";
      include_once($path);
   ?>
 
@@ -33,7 +33,7 @@
   ?>
 
 
-<script src="/redirect.js"></script>
+<script src="/scripts/javascript.js"></script>
 <script>
 cookieRedirect(); // Redirects if proper semester cookie is found
 </script>
