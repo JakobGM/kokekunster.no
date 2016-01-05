@@ -104,15 +104,21 @@ And then we can clone the website's repository to a folder named public_html wit
 git clone https://github.com/JakobGM/kokekunster.no.git /var/www/kokekunster.no/public_html
 ```
 
-Create a symbolic link between apache sites-available folder and the repository's virtualhost configuration.
+Create symbolic links between apache sites-available folder and the repository's virtualhost configuration.
 
 ```Shell
 sudo ln -s /var/www/kokekunster.no/public_html/virtualhosts/kokekunster.no.conf /etc/apache2/sites-available/kokekunster.no.conf
+sudo ln -s /var/www/kokekunster.no/public_html/virtualhosts/fysmat.no.conf /etc/apache2/sites-available/fysmat.no.conf
 ```
 
 Enable the website in Apache 2.
 ```Shell
 sudo a2ensite kokekunster.no
+sudo a2ensite fysmat.no
 ```
 
+Reload the apache server.
+```
+sudo service apache2 reload
+```
 The site should now be up and running!
