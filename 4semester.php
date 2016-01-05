@@ -44,6 +44,16 @@
       arkivLink.setAttribute('href', '/arkiv/4.Semester/')
   </script>
 
+  <!-- Hover effect on the "P.O.O.P." category -->
+  <script>
+    function hover(element) {
+      element.setAttribute('src', '/img/poopHover_logo.svg');
+    }
+    function unhover(element) {
+      element.setAttribute('src', '/img/poop_logo.svg');
+    }
+  </script>
+
   <!-- The main content. Consists of images, headlines and paragraphs -->
   <div class="wrap content">
 
@@ -63,7 +73,7 @@
     </article>
 
     <article>
-      <a class="kategori" href="http://www.idi.ntnu.no/emner/tdt4102/"><img src="/img/poop_logo.svg" alt="Kalkulator"><h2>P.O.O.P.</h2></a>
+      <a class="kategori" href="http://www.idi.ntnu.no/emner/tdt4102/"><img src="/img/poop_logo.svg" alt="Kalkulator" onmouseover="hover(this);" onmouseout="unhover(this);"><h2>P.O.O.P.</h2></a>
       <ul>
         <li class="lf"><a href="/arkiv/4.Semester/TDT4102%20-%20Prosedyre-%20og%20objektorientert%20programmering/"><b>LF</b> til øvingsoppgavene</a></li>
       </ul>
