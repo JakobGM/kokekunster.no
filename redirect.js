@@ -19,7 +19,7 @@ function cookieRedirect() {
 
 // Sets value of the semester cookie
 function semesterChoice(choice) {
-  document.cookie="semester=" + choice + "; expires=Thu, 30 Jun 2016 12:00:00 UTC";
+  document.cookie="semester=" + choice + "; expires=" + semesterEnd();
   window.location.href = '/' + choice + 'semester.php';
 }
 
@@ -27,4 +27,16 @@ function semesterChoice(choice) {
 function deleteSemester() {
   document.cookie = "semester=; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
   window.location.href = '/index.php'
+}
+
+// Determines the end date of the current semester
+function semesterEnd() {
+  var nowDate = new Date();
+  if (nowDate.getMonth() <=  6) {
+    //Juli slutt
+    return new Date(nowDate.getFullYear(), 6, 32).toUTCString();
+  }
+  else {
+    return new Date(nowDate.getFullYear(), 11, 32).toUTCString();
+  }
 }
