@@ -67,7 +67,8 @@
     </p>
 
     <p class="mandatory-notice" style="margin-top: -0.5em;">
-      *Påkrevde feldt
+      *Påkrevde feldt <br>
+      &nbsp
     </p>
 
     <input class="pure-button" type="submit" value="Send inn lenkeforslag" name="submit">
@@ -89,7 +90,7 @@
     </p>
 
     <p>
-      <label for='file'>Fil<span style="color: grey;">*</span>: </label><br>
+      <label for='file'>Fil<span style="color: grey;">* **</span>: </label><br>
       <input class="fileupload" type="file" name="file" required>
     </p>
 
@@ -99,7 +100,8 @@
     </p>
 
     <p class="mandatory-notice" style="margin-top: -0.5em;">
-      *Påkrevde feldt
+      *Påkrevde feldt <br>
+      **Hvis flere filer, vennligst <a href="http://www.wikihow.com/Zip-Files-Together">"zip" dem</a>
     </p>
 
     <input class="pure-button" type="submit" value="Send inn filforslag" name="submit" id="submit">
