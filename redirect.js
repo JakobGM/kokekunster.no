@@ -33,10 +33,9 @@ function deleteSemester() {
 function semesterEnd() {
   var nowDate = new Date();
   if (nowDate.getMonth() <=  6) {
-    //Juli slutt
-    return new Date(nowDate.getFullYear(), 6, 32).toUTCString();
+    return new Date(nowDate.getFullYear(), 6, 32).toUTCString(); // 31st of July, this year
   }
   else {
-    return new Date(nowDate.getFullYear(), 11, 32).toUTCString();
+    return new Date(nowDate.getFullYear(), 11, 32).toUTCString(); // 31st of December, this year
   }
 }
