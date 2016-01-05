@@ -41,7 +41,28 @@ cookieRedirect(); // Redirects if proper semester cookie is found
 
 <!-- The main content. Consists of images, headlines and paragraphs -->
 
-<h1 class="semester"> Velg ditt semester: <br></h1> <p class="semester"><i>(Kan senere endres ved å trykke på <img src="/img/stortsemestervalg_logo.svg" alt="tannhjul"> i navigasjonsmenyen)</i></p>
+<h1 class="semester"> Velg ditt semester: <br></h1>
+
+<br>
+
+<p class="semester"><img src="/img/fp_link.svg" alt="kalender"> 1024 kalendernavn:
+<b>
+<script>
+var calendarName = getCookie("calendarName");
+
+document.write("<a onclick=\"changeCalendarName()\" href=\"#\">")
+
+if (calendarName == undefined || calendarName === "") {
+  document.write("(trykk her)")
+}
+else {
+  document.write(getCookie("calendarName"))
+}
+document.write("</a>");
+</script>
+</b>
+
+</p>
 
 <div class="wrap content semester">
   <article>

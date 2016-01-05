@@ -24,8 +24,8 @@ function semesterChoice(choice) {
 }
 
 // Deletes the semester cookie
-function deleteSemester() {
-  document.cookie = "semester=; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+function deleteCookie(name) {
+  document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
   window.location.href = '/index.php'
 }
 
@@ -37,5 +37,53 @@ function semesterEnd() {
   }
   else {
     return new Date(nowDate.getFullYear(), 11, 32).toUTCString(); // 31st of December, this year
+  }
+}
+
+// Redirects to user-specified 1024-calendar
+function calendarRedirect() {
+  var calendarName = getCookie("calendarName");
+
+  if (calendarName == undefined || calendarName === "") {
+    calendarName = window.prompt("Tast inn ditt kalendernavn på ntnu.1024.no. " +
+    "Du blir deretter sendt direkte til din kalender neste gang. " +
+    "Kalendernavnet kan endres ved å trykke på tannhjulet oppe i venstre hjørne.");
+
+    if (calendarName == undefined) {
+      return; // Exits function if user didn´t enter a calendar name
+    }
+    document.cookie="calendarName=" + calendarName +
+    "; expires=" + new Date(new Date().getFullYear() + 5, 11, 32).toUTCString(); // Sets expiry date 5 years into future
+    calendarRedirect();
+  }
+  else {
+    window.location = "http://ntnu.1024.no/" + calendarName;
+  }
+}
+
+function changeCalendarName() {
+  var calendarName = getCookie("calendarName");
+
+  if (calendarName == undefined) {
+    calendarName = window.prompt("Tast inn ditt kalendernavn på ntnu.1024.no. " +
+    "Trykker du på \"1024-kalender\"-linken under \"Annet\"-seksjonen blir du " +
+    "så sendt direkte til din kalender.");
+  }
+  else {
+    calendarName = window.prompt("Tast inn ditt kalendernavn på ntnu.1024.no. " +
+    "Trykker du på \"1024-kalender\"-linken under \"Annet\"-seksjonen blir du " +
+    "så sendt direkte til din kalender.", calendarName);
+  }
+
+  if (calendarName == undefined) {
+    return; // No change is made if user selects the cancel dialogue box
+  }
+  else if (calendarName === "") {
+    deleteCookie("calendarName"); // Deletes cookie if user enters empty value
+  }
+  else {
+    document.cookie="calendarName=" + calendarName +
+    "; expires=" + new Date(new Date().getFullYear() + 5, 11, 32).toUTCString(); // Sets expiry date 5 years into future
+    location.reload();
   }
 }
