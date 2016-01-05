@@ -5,8 +5,14 @@
     <li class="epost"><a href="https://outlook.office365.com/owa/?realm=ntnu.no#path=/mail">Studentepost</a></li>
     <li class="wolframalpha"><a href="http://www.wolframalpha.com/">WolframAlpha</a></li>
     <li class="symbolab"><a href="https://www.symbolab.com/">Symbolab</a></li>
-    <li class="software"><a href="https://software.ntnu.no/">Programvare</a></li>
-    <li class="ibok"><a href="https://ibok.no/">iBok.no</a></li>
+    
+    <!-- Only adding software on 1st semester page (90% of traffic) -->
+    <script>
+    if (getCookie("semester") == 1) {
+      document.write("<li class='software'><a href='https://software.ntnu.no/'>Programvare</a></li>")
+    }
+    </script>
+
     <li class="request"><a href="/request.php">Legg til / endre lenke</a></li>
   </ul>
 </article>
