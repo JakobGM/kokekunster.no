@@ -58,10 +58,12 @@
   <div class="wrap content">
 
     <article>
-      <a class="kategori" href="https://wiki.math.ntnu.no/tma4320"><img src="/img/nummat2_logo.svg" alt="Kalkulator"><h2>NumMat</h2></a>
+      <a class="kategori" href="https://wiki.math.ntnu.no/tma4320/2016v/start"><img src="/img/nummat2_logo.svg" alt="Kalkulator"><h2>NumMat</h2></a>
       <ul>
-        <li class="info"><a href="/ressurser/NumMatInfo.pdf">Støvnengs beskrivelse av emnet</a></li>
-        <li class="info"><a href="http://www.ntnu.no/studier/emner/TMA4320#tab=omEmnet">Kursbeskrivelse</a></li>
+        <li class="info"><a href="http://www.ntnu.no/studier/emner/TMA4320#tab=omEmnet">Læringsmål</a></li>
+        <li class="fp"><a href="https://wiki.math.ntnu.no/tma4320/2016v/start#forelesninger_plan_med_forbehold_om_endringer">Framdriftsplan</a></li>
+        <li class="ov"><a href="https://wiki.math.ntnu.no/tma4320/2016v/start#ovinger">Øvingsoppgaver</a></li>
+        <li class="ov"><a href="https://wiki.math.ntnu.no/tma4320/2016v/start#prosjekter">Prosjekter</a></li>
       </ul>
     </article>
 
