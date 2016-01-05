@@ -18,13 +18,13 @@ function cookieRedirect() {
 }
 
 // Sets value of the semester cookie
-function semesterchoice(choice) {
+function semesterChoice(choice) {
   document.cookie="semester=" + choice + "; expires=Thu, 30 Jun 2016 12:00:00 UTC";
   window.location.href = '/' + choice + 'semester.php';
 }
 
 // Deletes the semester cookie
-function deletesemester() {
+function deleteSemester() {
   document.cookie = "semester=; expires=Thu, 01 Jan 1970 00:00:01 GMT;";
   window.location.href = '/index.php'
 }
