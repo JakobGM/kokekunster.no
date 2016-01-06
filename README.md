@@ -7,6 +7,8 @@ The website is mainly written in HTML and CSS. PHP is used sparingly in order to
 
 The site offers responsive design, intended for use with most browsers and and form factors. The file archive uses the [h5ai file indexer](http://larsjung.de/h5ai/) in order to serve locally hosted files in a more user friendly and appealing fashion.
 
+![Screenshot of kokekunster.no](ressurser/KokekunsterScreenshot.png "Screenshot of the 3rd semester page on kokekunster.no (taken 6. January, 2016)")
+
 ## Installation instructions
 The included virtualhost configuration is written for Apache 2, but the website could also be hosted with lighttpd, nginx and cherokee, since these are the webservers supported by the h5ai file indexer. But you will need to rewrite the virtualhost configuration for webservers other than Apache 2.
 
