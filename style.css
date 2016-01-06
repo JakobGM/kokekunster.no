@@ -348,6 +348,10 @@ img.desaturate{
 	list-style-image: url('/img/request_link.svg');
 }
 
+.ntnu {
+	list-style-image: url('/img/ntnu_link.svg');
+}
+
 /* Footer */
 
 footer {
