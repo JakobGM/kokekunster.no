@@ -54,6 +54,7 @@
         <li class="ov"><a href="https://www.math.ntnu.no/mapleta">Maple T.A.</a></li>
         <li class="lf"><a href="https://www.facebook.com/groups/1595115527375519/"><b>LF</b> til Maple T.A.</a></li>
         <li class="lf"><a href="http://rjavadi.iut.ac.ir/sites/rjavadi.iut.ac.ir/files//files_course/robert_a._adams_christopher_essex_calculus_a_cbookfi.org_.pdf"><b>LF</b> til Adams</a></li>
+        <li class="info"><a href="https://l.messenger.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1g-DSzZEvwltyV3B5br3k8fYaF1251fJhI1cy_iItdS0%2Fedit%23gid%3D0&h=yAQF1hoWD">Oppgavefordeling på eksamen</a></li>
         <li class="eks"><a href="https://wiki.math.ntnu.no/tma4105/2016v/eksamensoppgaver">Eksamenssett (med <b>LF</b>)</a></li>
       </ul>
     </article>
