@@ -352,6 +352,10 @@ img.desaturate{
 	list-style-image: url('/img/ntnu_link.svg');
 }
 
+.wikipendium {
+	list-style-image: url('/img/wikipendium_link.svg');
+}
+
 /* Footer */
 
 footer {
