@@ -77,7 +77,7 @@
       <a class="kategori" href="https://sats.itea.ntnu.no/sso-wrapper/web/wrapper?target=itslearning"><img src="/img/poop_logo.svg" alt="Kalkulator" onmouseover="hover(this);" onmouseout="unhover(this);"><h2>P.O.O.P.</h2></a>
       <ul>
         <li class="info"><a href="http://www.idi.ntnu.no/emner/tdt4102/">Om emnet</a></li>
-        <li class="ov"><a href="http://kokekunster.no/arkiv/4.Semester/TDT4102%20-%20Prosedyre-%20og%20objektorientert%20programmering/%C3%98vinger%20%28Va%CC%8Ar%202016%29/">Øvingsoppgaver</a></li>
+        <li class="ov"><a href="/arkiv/4.Semester/TDT4102%20-%20Prosedyre-%20og%20objektorientert%20programmering/%C3%98vinger%20%28V%C3%A5r%202016%29/">Øvingsoppgaver</a></li>
         <li class="lf"><a href="/arkiv/4.Semester/TDT4102%20-%20Prosedyre-%20og%20objektorientert%20programmering/"><b>LF</b> til øvingsoppgavene</a></li>
       </ul>
     </article>
