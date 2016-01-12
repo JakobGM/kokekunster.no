@@ -67,8 +67,9 @@
     </article>
 
     <article>
-      <a class="kategori" href="http://www.nt.ntnu.no/users/jensoa/1006.html"><img src="/img/kvante_logo.svg" alt="Kalkulator"><h2>Kvantefysikk</h2></a>
+      <a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4215_2016/tfy4215.htm"><img src="/img/kvante_logo.svg" alt="Kalkulator"><h2>Kvantefysikk</h2></a>
       <ul>
+        <li class="ov"><a href="http://web.phys.ntnu.no/~stovneng/TFY4215_2016/tfy4215.htm#ovinger">Øvingsoppgaver</a></li>
         <li class="lf"><a href="/arkiv/4.Semester/TFY4215%20-%20Innf%C3%B8ring%20i%20kvantefysikk/"><b>LF</b> til øvingsoppgavene</a></li>
       </ul>
     </article>
