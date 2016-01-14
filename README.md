@@ -1,4 +1,4 @@
-# [Kokekunster.no](www.kokekunster.no)
+# [Kokekunster.no](http://www.kokekunster.no)
 A collection of hotlinks for everything you need frequent access to as a student enrolled in the "Applied Physics and Mathematics" Master in Science Program at NTNU.
 
 URL: [www.kokekunster.no](www.kokekunster.no)
