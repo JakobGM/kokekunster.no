@@ -455,6 +455,13 @@ article form p {
 		padding: 0.3em;
 	}
 
+	.content article ul a {
+		display: inline-block;
+		padding-right: 160%;
+	}
+
+	#site { overflow-x: hidden; }
+
 	header .logo {
 		width: 60px;
 		margin-right: 1em;
