@@ -13,6 +13,13 @@
     }
     </script>
 
+    <!-- Only adding software on 1st semester page (90% of traffic) -->
+    <script>
+    if (getCookie("semester") == 2) {
+      document.write("<li class='fp'><a href='https://docs.google.com/spreadsheets/d/10kku46KjD8DjeXTRMRRYGJeOvNbmu_BFJXi8hrxosXQ/edit?usp=sharing'>Frister</a></li>")
+    }
+    </script>
+
     <li class="request"><a href="/request.php">Legg til / endre lenke</a></li>
   </ul>
 </article>
