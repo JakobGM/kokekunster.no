@@ -24,7 +24,7 @@ if(empty($url)||empty($title))
 }
 
 //Email content
-$email_from = 'linkrequest@kokekunster.no';
+$email_from = 'linkrequest@silicon.kokekunster.no';
 $email_subject = "New link request from Kokekunster.no";
 $email_body = "The following link has been requested: \n".
               "Title:            $title \n".
