@@ -90,7 +90,7 @@
         <li class="fp"><a href="https://wiki.math.ntnu.no/tma4245/2016v/fremdriftsplan">Framdriftsplan</a></li>
         <li class="pensum"><a href="https://wiki.math.ntnu.no/tma4245/2016v/pensum">Pensum</a></li>
         <li class="ov"><a href="https://ntnu.mapleta.com/ntnu/login/login.do">Maple T.A.</a></li>
-        <li class="lf"><a href="/arkiv/4.Semester/TMA4245%20-%20Statistikk/Maple%20T.A.%20%28V%C3%A5r%202016%29/"><b>LF</b> til Maple T.A.</a></li>
+        <li class="lf"><a href="https://www.facebook.com/groups/159911361047477/"><b>LF</b> til Maple T.A.</a></li>
         <li class="ov"><a href="https://wiki.math.ntnu.no/tma4245/2016v/ovinger">Øvingsoppgaver</a></li>
         <li class="lf"><a href="/arkiv/4.Semester/TMA4245%20-%20Statistikk/"><b>LF</b> til øvingsoppgavene</a></li>
         <li class="eks"><a href="https://wiki.math.ntnu.no/tma4245/tema/eksamenssett">Eksamenssett (med <b>LF</b>)</a></li>
