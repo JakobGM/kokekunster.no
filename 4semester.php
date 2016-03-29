@@ -67,8 +67,8 @@
     </article>
 
     <article>
-      <a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4215_2016/tfy4215.htm" onmouseover="kvante.innerText = 'Kontefysikk'" onmouseout="kvante.innerText = 'Kvantefysikk'"><img src="/img/kvante_logo.svg" alt="Kalkulator"><h2 id="kvante">Kvantefysikk</h2></a>
-      <ul>
+      <div class="hoverbubble"><a class="kategori" href="http://web.phys.ntnu.no/~stovneng/TFY4215_2016/tfy4215.htm" onmouseover="kvante.innerText = 'Kontefysikk'" onmouseout="kvante.innerText = 'Kvantefysikk'"><img src="/img/kvante_logo.svg" alt="Kalkulator"><span>Hæ? Øving 9 er obligatorisk!? Ok, la meg bare gjøre øving 1-8 først!</span><h2 id="kvante">Kvantefysikk</h2></a></div>
+      <ul id="kvante-list">
         <li class="ov"><a href="http://web.phys.ntnu.no/~stovneng/TFY4215_2016/tfy4215.htm#ovinger">Øvingsoppgaver</a></li>
         <li class="lf"><a href="/arkiv/4.Semester/TFY4215%20-%20Innf%C3%B8ring%20i%20kvantefysikk/"><b>LF</b> til øvingsoppgavene</a></li>
       </ul>
